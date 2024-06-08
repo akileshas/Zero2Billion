@@ -1,0 +1,17 @@
+
+
+
+
+
+
+@media screen and (max-width: 349px) {
+    #footer {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 349px) {
+    #footer {
+        display: none;
+    }
+}
