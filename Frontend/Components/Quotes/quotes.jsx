@@ -1,19 +1,19 @@
 import React from "react";
-import { Quotes } from "../../../Data/quotes";
+import { QuotesData } from "../../../Data/quotes";
 import "./quotes.css";
 
-const QuotesComponent = () => {
+const Quotes = () => {
     return (
         <section id="quotes">
             <div className="quotes-cont">
                 <div className="qc-flex-cont">
                     <div className="qc-fc-border-left"></div>
-                    <p className="qc-quote">{Quotes.quote}</p>
+                    <p className="qc-quote">{QuotesData.quote}</p>
                 </div>
-                <p className="qc-author">{Quotes.author}</p>
+                <p className="qc-author">{QuotesData.author}</p>
             </div>
         </section>
     )
 };
 
-export default QuotesComponent;
+export default Quotes;

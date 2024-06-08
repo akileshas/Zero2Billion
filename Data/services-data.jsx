@@ -1,6 +1,6 @@
 import React from "react";
 
-export const services = [
+export const ServiceData = [
     {
         title: "IP SUPPORT",
         points: [

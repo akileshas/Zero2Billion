@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./home.css";
 
 const Home = ({ mobileMenu }) => {
@@ -21,7 +22,7 @@ const Home = ({ mobileMenu }) => {
                     </p>
                 </div>
                 <button className="hc-button-cont">
-                    <a href="">Let's Get Started</a>
+                    <Link to="/">Let's Get Started</Link>
                 </button>
             </div>
         </section>

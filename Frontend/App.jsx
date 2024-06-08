@@ -1,23 +1,15 @@
-import React, {useState} from "react";
-import Navbar from "./Components/Navbar/navbar";
-import Home from "./Components/Home/home";
-import QuotesComponent from "./Components/Quotes/quotes";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./Pages/Home-Page/home-page";
 
-import Footer from "./Components/Footer/footer";
-import SmallScreen from "./Components/SmallScreen/small-screen";
 import "./App.css";
 
 const App = () => {
-    const [mobileMenu, setMobileMenu] = useState(false);
-    
     return (
         <>
-            <Navbar mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} />
-            <Home mobileMenu={mobileMenu} />
-            <QuotesComponent />
-
-            <Footer />
-            <SmallScreen />
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+            </Routes>
         </>
     );
 };

@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import Logo from "../../../Data/Images/logo.png";
 import "./navbar.css";
 
@@ -62,7 +63,9 @@ const Navbar = ({ mobileMenu, setMobileMenu }) => {
             <div className="navbar-cont" style={{ position: !mobileMenu ? "" : "relative" }}>
                 <div className="nav-cont" style={{ display: mobileMenu ? "none" : "flex" }}>
                     <div className="nav-img-container">
-                        <img src={Logo} alt="" />
+                        <Link to={"/"}>
+                            <img src={Logo} alt="" />
+                        </Link>
                     </div>
                     <div className="nc-inner-cont">
                         <ul className="nav-list-cont">
@@ -79,20 +82,20 @@ const Navbar = ({ mobileMenu, setMobileMenu }) => {
                                 <a href="#centers">Centers</a>
                             </li>
                             <li className={`${activeSection === "#makers-turn" ? "active" : ""}`}>
-                                <a href="#makers-turn">Makers Turn</a>
+                                <Link to={"/"}>Makers Turn</Link>
                             </li>
                             <li className={`${activeSection === "#events" ? "active" : ""}`}>
-                                <a href="#events">Events</a>
+                                <Link to={"/"}>Events</Link>
                             </li>
                             <li className={`${activeSection === "#gallery" ? "active" : ""}`}>
-                                <a href="#gallery">Gallery</a>
+                                <Link to={"/"}>Gallery</Link>
                             </li>
                         </ul>
 
                         <button className="investment-button">
-                            <a href="">
+                            <Link to={"/"}>
                                 For Investment
-                            </a>
+                            </Link>
                         </button>
                         <div className="mobile-menu-toggle-button" onClick={toggleMobileMenu}>
                             <i className="bx bx-menu-alt-left"></i>
@@ -106,7 +109,9 @@ const Navbar = ({ mobileMenu, setMobileMenu }) => {
                         </div>
                     </div>
                     <div className="nav-img-container">
-                        <img src={Logo} alt="" />
+                        <Link to={"/"}>
+                            <img src={Logo} alt="" />
+                        </Link>
                     </div>
                     <div className="seperator-line"></div>
                     <ul className="mobile-nav-list-cont">
@@ -123,16 +128,16 @@ const Navbar = ({ mobileMenu, setMobileMenu }) => {
                             <a href="#centers" onClick={toggleMobileMenu}>Centers</a>
                         </li>
                         <li className={`${activeSection === "#makers-turn" ? "active" : ""}`}>
-                            <a href="#makers-turn" onClick={toggleMobileMenu}>Makers Turn</a>
+                            <Link to={"/"} onClick={toggleMobileMenu}>Makers Turn</Link>
                         </li>
                         <li className={`${activeSection === "#events" ? "active" : ""}`}>
-                            <a href="#events" onClick={toggleMobileMenu}>Events</a>
+                            <Link to={"/"} onClick={toggleMobileMenu}>Events</Link>
                         </li>
                         <li className={`${activeSection === "#gallery" ? "active" : ""}`}>
-                            <a href="#gallery" onClick={toggleMobileMenu}>Gallery</a>
+                            <Link to={"/"} onClick={toggleMobileMenu}>Gallery</Link>
                         </li>
                     </ul>
-                    <button className="investment-button"><a href="">For Investment</a></button>
+                    <button className="investment-button"><Link to={"/"}>For Investment</Link></button>
                 </div>
                 {mobileMenu && <div onClick={toggleMobileMenu} className="nav-mobile-overlay"></div>}
             </div>
