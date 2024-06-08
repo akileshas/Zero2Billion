@@ -2,8 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Logo from "../../../Data/Images/logo.png";
 import "./navbar.css";
 
-const Navbar = () => {
-    const [mobileMenu, setMobileMenu] = useState(false);
+const Navbar = ({ mobileMenu, setMobileMenu }) => {
     const [activeSection, setActiveSection] = useState("#home");
     const mobileMenuRef = useRef(null);
 
@@ -29,7 +28,6 @@ const Navbar = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            console.log("scrolled");
             const sections = document.querySelectorAll("section[id]");
             const scrollY = window.pageYOffset + 50;
 
@@ -47,7 +45,6 @@ const Navbar = () => {
         window.addEventListener("scroll", handleScroll);
 
         return () => {
-            console.log("unscrolled");
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
