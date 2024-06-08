@@ -1,11 +1,6 @@
 import React from "react";
 
-export interface ServiceItem {
-    title: string;
-    points: string[];
-}
-
-export const services: ServiceItem[] = [
+export const services = [
     {
         title: "IP SUPPORT",
         points: [
