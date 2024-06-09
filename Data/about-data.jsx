@@ -13,7 +13,7 @@ export const AboutData = [
     {
         title: "Our Goal",
         description: "We empower aspiring entrepreneurs, guiding their ideas from concept to market success. Committed to a thriving entrepreneurial ecosystem, we use strategic metrics to support institutions and become a leading force in the sector.",
-        highlightDetails: "Join us in building India's trillion-dollar economy.",
+        highlightDetails: " Join us in building India's trillion-dollar economy.",
         imgScr: imgScr2,
     },
     {
@@ -21,5 +21,5 @@ export const AboutData = [
         description: "We work on empowering the III’s Impact !",
         highlightDetails: "",
         imgScr: imgScr3,
-    }
+    },
 ]
