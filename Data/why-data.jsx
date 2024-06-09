@@ -5,5 +5,5 @@ export const WhyData = {
     incubatorsEstablished: 3,
     cultivatedCollaborations: 35,
     sustainabilityAssurance: 100,
-    grantsAndExternalFunds: "$3M",
+    grantsAndExternalFunds: 3,
 }

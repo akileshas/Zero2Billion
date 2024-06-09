@@ -7,7 +7,7 @@ const Home = ({ mobileMenu }) => {
         <section 
             id="home"
             style={{
-                height: mobileMenu ? "100vh" : "90vh",
+                height: mobileMenu ? "100vh" : "92vh",
                 minHeight: "660px",
             }}
         >
