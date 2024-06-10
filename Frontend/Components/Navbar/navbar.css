@@ -302,7 +302,7 @@ body.no-scroll {
     transition: all 0.3s ease-in-out;
 }
 
-@media screen and (min-width: 350px) and (max-width: 899px) {    
+@media screen and (min-width: 350px) and (max-width: 1068px) {    
     .mobile-nav-menu-cont.open {
         transform: translateX(0);
     }
@@ -326,7 +326,7 @@ body.no-scroll {
     }
 }
 
-@media screen and (min-width: 350px) and (max-width: 899px) {
+@media screen and (min-width: 350px) and (max-width: 1068px) {
     .nav-cont .nc-inner-cont {
         gap: 2rem;
     }
@@ -353,33 +353,7 @@ body.no-scroll {
     }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1055px) {
-    .nav-cont .nc-inner-cont {
-        gap: 2rem;
-    }
-
-    .nav-cont .nc-inner-cont .nav-list-cont {
-        gap: 1.7rem;
-    }
-
-    .nav-cont .nc-inner-cont .nav-list-cont li:nth-child(5) {
-        display: none;
-    }
-
-    .nav-cont .nc-inner-cont .nav-list-cont li a {
-        font-size: 1rem;
-    }
-
-    .nav-cont .nc-inner-cont .investment-button a {
-        font-size: 0.9rem;
-    }
-
-    .nav-cont .nc-inner-cont .investment-button {
-        padding: 0.7rem 0.7rem;
-    }
-}
-
-@media screen and (min-width: 1056px) and (max-width: 1189px) {
+@media screen and (min-width: 1069px) and (max-width: 1189px) {
     .nav-cont .nc-inner-cont {
         gap: 2rem;
     }

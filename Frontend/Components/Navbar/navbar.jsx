@@ -12,7 +12,7 @@ const Navbar = ({ mobileMenu, setMobileMenu }) => {
     };
 
     const handleResize = () => {
-        if (window.innerWidth > 899) {
+        if (window.innerWidth > 1068) {
             setMobileMenu(false);
         }
     };
