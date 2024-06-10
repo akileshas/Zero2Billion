@@ -6,6 +6,7 @@ import About from "../../Components/About/about";
 import Why from "../../Components/Why/why";
 import Support from "../../Components/Support/support";
 
+import Apply from "../../Components/Apply/apply";
 import Know from "../../Components/Know/know";
 import Footer from "../../Components/Footer/footer";
 import SmallScreen from "../../Components/SmallScreen/small-screen";
@@ -23,6 +24,7 @@ const HomePage = () => {
             <Why />
             <Support />
 
+            <Apply />
             <Know />
             <Footer />
             <SmallScreen />
