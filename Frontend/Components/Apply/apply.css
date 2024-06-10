@@ -138,7 +138,6 @@
     animation: rotateBack 0.3s ease-in-out;
 }
 
-
 @media screen and (min-width: 720px) and (max-width: 1106px) {
     .apply-cont .ac-card-cont {
         max-width: 648px;
