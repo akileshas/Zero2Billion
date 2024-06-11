@@ -4,7 +4,9 @@ import Logo from "../../../Data/Images/logo.png";
 import "./navbar.css";
 
 const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
+
     const [activeSection, setActiveSection] = useState("#home");
+
     const mobileMenuRef = useRef(null);
 
     const toggleMobileMenu = () => {
