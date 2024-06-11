@@ -6,23 +6,25 @@ import About from "../../Components/About/about";
 import Why from "../../Components/Why/why";
 import Support from "../../Components/Support/support";
 
+import Apply from "../../Components/Apply/apply";
 import Know from "../../Components/Know/know";
 import Footer from "../../Components/Footer/footer";
 import SmallScreen from "../../Components/SmallScreen/small-screen";
 import "./home-page.css";
 
-
 const HomePage = () => {
     const [mobileMenu, setMobileMenu] = useState(false);
     return (
         <>
-            <Navbar mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} />
+            <Navbar mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} Session={"#home"} />
             <Home mobileMenu={mobileMenu} />
             <Quotes />
             <About />
             <Why />
             <Support />
+           
 
+            <Apply />
             <Know />
             <Footer />
             <SmallScreen />

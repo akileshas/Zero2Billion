@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Logo from "../../../Data/Images/logo.png";
 import "./navbar.css";
 
-const Navbar = ({ mobileMenu, setMobileMenu }) => {
+const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
     const [activeSection, setActiveSection] = useState("#home");
     const mobileMenuRef = useRef(null);
 
@@ -12,7 +12,7 @@ const Navbar = ({ mobileMenu, setMobileMenu }) => {
     };
 
     const handleResize = () => {
-        if (window.innerWidth > 899) {
+        if (window.innerWidth > 1068) {
             setMobileMenu(false);
         }
     };
@@ -70,16 +70,16 @@ const Navbar = ({ mobileMenu, setMobileMenu }) => {
                     <div className="nc-inner-cont">
                         <ul className="nav-list-cont">
                             <li className={`${activeSection === "#home" ? "active" : ""}`}>
-                                <a href="#home">Home</a>
+                                <a href="/#home">Home</a>
                             </li>
                             <li className={`${activeSection === "#about" ? "active" : ""}`}>
-                                <a href="#about">About</a>
+                                <a href="/#about">About</a>
                             </li>
                             <li className={`${activeSection === "#services" ? "active" : ""}`}>
-                                <a href="#services">Services</a>
+                                <a href="/#services">Services</a>
                             </li>
                             <li className={`${activeSection === "#centers" ? "active" : ""}`}>
-                                <a href="#centers">Centers</a>
+                                <a href="/#centers">Centers</a>
                             </li>
                             <li className={`${activeSection === "#makers-turn" ? "active" : ""}`}>
                                 <Link to={"/"}>Makers Turn</Link>
@@ -88,7 +88,7 @@ const Navbar = ({ mobileMenu, setMobileMenu }) => {
                                 <Link to={"/"}>Events</Link>
                             </li>
                             <li className={`${activeSection === "#gallery" ? "active" : ""}`}>
-                                <Link to={"/"}>Gallery</Link>
+                                <Link to="/gallery">Gallery</Link>
                             </li>
                         </ul>
 
@@ -116,16 +116,16 @@ const Navbar = ({ mobileMenu, setMobileMenu }) => {
                     <div className="seperator-line"></div>
                     <ul className="mobile-nav-list-cont">
                         <li className={`${activeSection === "#home" ? "active" : ""}`}>
-                            <a href="#home" onClick={toggleMobileMenu}>Home</a>
+                            <a href="/#home" onClick={toggleMobileMenu}>Home</a>
                         </li>
                         <li className={`${activeSection === "#about" ? "active" : ""}`}>
-                            <a href="#about" onClick={toggleMobileMenu}>About</a>
+                            <a href="/#about" onClick={toggleMobileMenu}>About</a>
                         </li>
                         <li className={`${activeSection === "#services" ? "active" : ""}`}>
-                            <a href="#services" onClick={toggleMobileMenu}>Services</a>
+                            <a href="/#services" onClick={toggleMobileMenu}>Services</a>
                         </li>
                         <li className={`${activeSection === "#centers" ? "active" : ""}`}>
-                            <a href="#centers" onClick={toggleMobileMenu}>Centers</a>
+                            <a href="/#centers" onClick={toggleMobileMenu}>Centers</a>
                         </li>
                         <li className={`${activeSection === "#makers-turn" ? "active" : ""}`}>
                             <Link to={"/"} onClick={toggleMobileMenu}>Makers Turn</Link>
