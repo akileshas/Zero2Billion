@@ -1,0 +1,17 @@
+
+
+
+
+
+
+@media screen and (max-width: 349px) {
+    #centres {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 349px) {
+    #centres {
+        display: none;
+    }
+}

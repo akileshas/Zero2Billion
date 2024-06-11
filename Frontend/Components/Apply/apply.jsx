@@ -17,6 +17,7 @@ const Apply = () => {
                                 key={index}
                                 number={index + 1}
                                 title={item.title}
+                                description={item.description}
                                 formUrl={item.formUrl}
                                 doubleLine={item.doubleLine}
                             />

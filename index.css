@@ -48,13 +48,3 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
 }
-
-/* Animations */
-@keyframes rotateBack {
-    from {
-        transform: rotate(180deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
