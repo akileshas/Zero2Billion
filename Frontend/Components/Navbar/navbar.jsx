@@ -136,7 +136,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
                             <Link to={"/"} onClick={toggleMobileMenu}>Events</Link>
                         </li>
                         <li className={`${activeSection === "#gallery" ? "active" : ""}`}>
-                            <Link to={"/"} onClick={toggleMobileMenu}>Gallery</Link>
+                        <Link to="/gallery" onClick={toggleMobileMenu}>Gallery</Link>
                         </li>
                     </ul>
                     <button className="investment-button"><Link to={"/"}>For Investment</Link></button>

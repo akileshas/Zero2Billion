@@ -1,108 +1,98 @@
-import React from "react";
-import img1 from "../Data/Images/support-individual.png";
-import img2 from "../Data/Images/support-institute.png";
-import img3 from "../Data/Images/support-industry.png"
-import img4 from "../Data/Images/support-industry.png"
-import img5 from "../Data/Images/support-industry.png"
-import img6 from "../Data/Images/support-industry.png"
-import img7 from "../Data/Images/support-industry.png"
-import img8 from "../Data/Images/support-industry.png"
-import img9 from "../Data/Images/support-industry.png"
-import img10 from "../Data/Images/support-industry.png"
-import img11 from "../Data/Images/support-industry.png"
-import img12 from "../Data/Images/support-industry.png"
-import img13 from "../Data/Images/support-industry.png"
+import img1 from "../Data/Images/Gallery/gallery-img1.jpg";
+import img2 from "../Data/Images/Gallery/gallery-img2.jpg";
+import img3 from "../Data/Images/Gallery/gallery-img3.jpg";
+import img4 from "../Data/Images/Gallery/gallery-img4.jpg";
+import img5 from "../Data/Images/Gallery/gallery-img5.jpg";
+import img6 from "../Data/Images/Gallery/gallery-img6.jpg";
+import img7 from "../Data/Images/Gallery/gallery-img7.jpg";
+import img8 from "../Data/Images/Gallery/gallery-img8.jpg";
+import img9 from "../Data/Images/Gallery/gallery-img9.jpg";
+import img10 from "../Data/Images/Gallery/gallery-img10.jpg";
+import img11 from "../Data/Images/Gallery/gallery-img11.jpg";
+import img12 from "../Data/Images/Gallery/gallery-img12.jpg";
+import img13 from "../Data/Images/Gallery/gallery-img13.jpg";
+import img14 from "../Data/Images/Gallery/gallery-img14.jpg";
+import img15 from "../Data/Images/Gallery/gallery-img15.jpg";
+import img16 from "../Data/Images/Gallery/gallery-img16.jpg";
+import img17 from "../Data/Images/Gallery/gallery-img17.jpg";
+import img18 from "../Data/Images/Gallery/gallery-img18.jpg";
+import img19 from "../Data/Images/Gallery/gallery-img19.jpg";
 
 export const GalleryData = [
     {
-        id: 1,
-        link: "https://example.com/image1",
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
         imgSrc: img1,
-        // Other properties as needed
     },
     {
-        id: 2,
-        link: "https://example.com/image2",
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
         imgSrc: img2,
-        // Other properties as needed
     },
-    // Add more objects for additional images
     {
-        id: 3,
-        link: "https://example.com/image3",
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
         imgSrc: img3,
-        // Other properties as needed
     },
     {
-        id: 4,
-        link: "https://example.com/image4",
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
         imgSrc: img4,
-        // Other properties as needed
     },
     {
-        id: 5,
-        link: "https://example.com/image5",
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
         imgSrc: img5,
-        // Other properties as needed
     },
     {
-        id: 6,
-        link: "https://example.com/image6",
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
         imgSrc: img6,
-        // Other properties as needed
     },
     {
-        id: 7,
-        link: "https://example.com/image7",
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
         imgSrc: img7,
-        // Other properties as needed
     },
     {
-        id: 8,
-        link: "https://example.com/image8",
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
         imgSrc: img8,
-        // Other properties as needed
     },
     {
-        id: 9,
-        link: "https://example.com/image9",
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
         imgSrc: img9,
-        // Other properties as needed
     },
     {
-        id: 10,
-        link: "https://example.com/image10",
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
         imgSrc: img10,
-        // Other properties as needed
     },
     {
-        id: 11,
-        link: "https://example.com/image11",
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
         imgSrc: img11,
-        // Other properties as needed
     },
     {
-        id: 12,
-        link: "https://example.com/image12",
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
         imgSrc: img12,
-        // Other properties as needed
     },
     {
-        id: 13,
-        link: "https://example.com/image13",
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
         imgSrc: img13,
-        // Other properties as needed
     },
     {
-        id: 14,
-        link: "https://example.com/image14",
-        imgSrc: img13,
-        // Other properties as needed
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
+        imgSrc: img14,
     },
     {
-        id: 15,
-        link: "https://example.com/image15",
-        imgSrc: img13,
-        // Other properties as needed
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
+        imgSrc: img15,
+    },
+    {
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
+        imgSrc: img16,
+    },
+    {
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
+        imgSrc: img17,
+    },
+    {
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
+        imgSrc: img18,
+    },
+    {
+        linkUrl: "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
+        imgSrc: img19,
     },
 ];

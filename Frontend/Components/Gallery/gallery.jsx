@@ -1,27 +1,27 @@
 import React from "react";
-import { GalleryData } from "../../../Data/gallery-data"; // Assuming you have the data in a file named gallery-data.js
-import "./gallery.css"; // Assuming you have the CSS for styling
+import GalleryCard from "./gallery-card";
+import { GalleryData } from "../../../Data/gallery-data";
+import "./gallery.css";
 
 const Gallery = () => {
     return (
-        <div className="gallery-container">
-            <div className="gallery-heading">
-                <div className="gallery-title">Gallery</div>
-                <div className="gallery-divider" />
+        <section id="gallery">
+            <div className="gallery-cont">
+                <p className="gallery-title">
+                    Gallery
+                </p>
+                <div className="gallery-card-cont">
+                    {GalleryData.map((item, index) => (
+                        <GalleryCard
+                            key={index}
+                            number={index + 1}
+                            imgSrc={item.imgSrc}
+                            linkUrl={item.linkUrl}
+                        />
+                    ))}
+                </div>
             </div>
-            <div className="card-container">
-                {GalleryData.map(item => (
-                    <div key={item.id} className="gallery-card">
-                        <a href={item.link}>
-                            <img
-                                src={item.imgSrc}
-                                alt={item.title}
-                            />
-                        </a>
-                    </div>
-                ))}
-            </div>
-        </div>
+        </section>
     );
 };
 
