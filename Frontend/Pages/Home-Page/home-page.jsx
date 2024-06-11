@@ -13,12 +13,11 @@ import Footer from "../../Components/Footer/footer";
 import SmallScreen from "../../Components/SmallScreen/small-screen";
 import "./home-page.css";
 
-
 const HomePage = () => {
     const [mobileMenu, setMobileMenu] = useState(false);
     return (
         <>
-            <Navbar mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} />
+            <Navbar mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} Session={"#home"} />
             <Home mobileMenu={mobileMenu} />
             <Quotes />
             <About />
