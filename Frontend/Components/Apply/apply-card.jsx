@@ -6,6 +6,7 @@ const ApplyCard = ({
     number,
     title,
     formUrl,
+    description,
     doubleLine
 }) => {
     return (
@@ -16,8 +17,17 @@ const ApplyCard = ({
                 >
                     {title}
                 </p>
-                <Link to={formUrl} className="ac-cc-cc-button">
+                <p className="ac-cc-cc-describe">
+                    {description}
+                </p>
+                <div className="ac-cc-cc-button">
                     <img src={imgScr} alt="" />
+                </div>
+                <Link
+                    to={formUrl}
+                    className="ac-cc-cc-submit-button"
+                >
+                    Submit Now
                 </Link>
             </div>
         </div>

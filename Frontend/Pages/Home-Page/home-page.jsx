@@ -6,7 +6,8 @@ import About from "../../Components/About/about";
 import Why from "../../Components/Why/why";
 import Support from "../../Components/Support/support";
 import Services from "../../Components/Services/services";
-
+import Centres from "../../Components/Centres/centres";
+import StartupProgram from "../../Components/StartupProgram/startup-program";
 import Apply from "../../Components/Apply/apply";
 import Know from "../../Components/Know/know";
 import Footer from "../../Components/Footer/footer";
@@ -25,7 +26,8 @@ const HomePage = () => {
             <Support />
            
             <Services />
-
+            <Centres />
+            <StartupProgram />
             <Apply />
             <Know />
             <Footer />

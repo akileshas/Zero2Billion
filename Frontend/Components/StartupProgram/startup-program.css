@@ -1,0 +1,15 @@
+
+
+
+
+@media screen and (max-width: 349px) {
+    #startup-program {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 349px) {
+    #startup-program {
+        display: none;
+    }
+}
