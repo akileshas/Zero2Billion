@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import ApplyCard from "./apply-card";
 import { ApplyData } from "../../../Data/apply-data";
 import "./apply.css";
 
 const Apply = () => {
+    const [openCard, setOpenCard] = useState(null);
+
+    const handleClickOpen = (number) => {
+        setOpenCard(number);
+    };
+
+    const handleClickClose = () => {
+        setOpenCard(null);
+    };
+
     return (
         <section id="apply">
             <div className="apply-cont">
@@ -20,6 +30,9 @@ const Apply = () => {
                                 description={item.description}
                                 formUrl={item.formUrl}
                                 doubleLine={item.doubleLine}
+                                isOpen={openCard === index + 1}
+                                handleClickOpen={() => handleClickOpen(index + 1)}
+                                handleClickClose={handleClickClose}
                             />
                         ))
                     }

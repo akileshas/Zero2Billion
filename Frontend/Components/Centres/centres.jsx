@@ -6,7 +6,7 @@ const Centres = () => {
     return (
         <section id="centres">
             <div className="centres-cont">
-
+                
             </div>
         </section>
     )
