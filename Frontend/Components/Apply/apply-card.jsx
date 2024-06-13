@@ -7,25 +7,35 @@ const ApplyCard = ({
     title,
     formUrl,
     description,
-    doubleLine
+    doubleLine,
+    isOpen,
+    handleClickOpen,
+    handleClickClose
 }) => {
     return (
-        <div className={`ac-cc-card ac-cc-card-${number}`}>
+        <div className={`ac-cc-card ac-cc-card-${number} ${isOpen ? "open" : ""}`}>
             <div className="ac-cc-card-cont">
                 <p 
                     className={`ac-cc-cc-title ${doubleLine ? "double-line" : ""}`}
+                    onClick={isOpen ? handleClickClose : null}
+                    title={isOpen ? "Close" : ""}
                 >
                     {title}
                 </p>
                 <p className="ac-cc-cc-describe">
                     {description}
                 </p>
-                <div className="ac-cc-cc-button">
-                    <img src={imgScr} alt="" />
+                <div 
+                    className="ac-cc-cc-button"
+                    onClick={() => handleClickOpen(number)}
+                    title="Apply Now"
+                >
+                    <img src={imgScr} alt="Apply Now" />
                 </div>
                 <Link
                     to={formUrl}
                     className="ac-cc-cc-submit-button"
+                    title="Submit Now"
                 >
                     Submit Now
                 </Link>
