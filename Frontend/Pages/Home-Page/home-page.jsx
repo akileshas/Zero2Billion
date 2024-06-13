@@ -24,7 +24,6 @@ const HomePage = () => {
             <About />
             <Why />
             <Support />
-           
             <Services />
             <Centres />
             <StartupProgram />
