@@ -21,16 +21,16 @@ const Footer = () => {
                     <div className="fc-ls-page-links">
                         <ul className="fc-ls-scroll-highlight-links">
                             <li className="fc-ls-shl-item">
-                                <a href="#home">Home</a>
+                                <a href="/#home">Home</a>
                             </li>
                             <li className="fc-ls-shl-item">
-                                <a href="#about">About Us</a>
+                                <a href="/#about">About Us</a>
                             </li>
                             <li className="fc-ls-shl-item">
-                                <a href="#services">Services</a>
+                                <a href="/#services">Services</a>
                             </li>
                             <li className="fc-ls-shl-item">
-                                <a href="#centers">Centers</a>
+                                <a href="/#centers">Centers</a>
                             </li>
                         </ul>
                         <ul className="fc-ls-other-page-navigation-links">

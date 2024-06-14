@@ -39,4 +39,4 @@ export const CentersData = [
     },
 ];
 
-export const redirectUrl = "/";
+export const redirectUrl = "/centers";

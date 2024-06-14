@@ -1,11 +1,12 @@
 #gallery {
     width: 100%;
-    background-color: var(--color-FFFFFF);
-    padding-top: 40px; /* Added padding to push the gallery section down */
+    background-color: var(--color-FFFFFFF);
+    padding-top: 40px; 
 }
+
 .gallery-card {
-    width: 350px;
-    height: 300px;
+    width: 300px; /* Reduced width */
+    height: 260px; /* Reduced height */
 }
 
 .gallery-card-link {
@@ -71,8 +72,8 @@
 }
 
 .gallery-cont .gallery-card-cont .gallery-card {
-    width: 350px;
-    height: 300px;
+    width: 300px; /* Reduced width */
+    height: 260px; /* Reduced height */
 }
 
 @media screen and (min-width: 350px) and (max-width: 449px) {
