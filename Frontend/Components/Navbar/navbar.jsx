@@ -87,7 +87,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
                                 <Link to={"/"}>Makers Turn</Link>
                             </li>
                             <li className={`${activeSection === "#events" ? "active" : ""}`}>
-                                <Link to={"/"}>Events</Link>
+                                <Link to="/events">Events</Link>
                             </li>
                             <li className={`${activeSection === "#gallery" ? "active" : ""}`}>
                                 <Link to="/gallery">Gallery</Link>

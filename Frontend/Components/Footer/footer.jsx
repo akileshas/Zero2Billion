@@ -38,7 +38,7 @@ const Footer = () => {
                                 <Link to={"/"}>Makers Turn</Link>
                             </li>
                             <li className="fc-ls-opnl-item">
-                                <Link to={"/"}>Events</Link>
+                                <Link to="/events">Events</Link>
                             </li>
                             <li className="fc-ls-opnl-item">
                             <Link to="/gallery">Gallery</Link>

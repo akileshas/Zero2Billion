@@ -3,6 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/Home-Page/home-page";
 import GalleryPage from "./Pages/Gallery-Page/gallery-page";
 import CentersPage from "./Pages/Centers-Page/centers-page";
+import EventsPage from "./Pages/Events-Page/events-page";
+
 import "./App.css";
 
 
@@ -13,6 +15,7 @@ const App = () => {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/gallery" element={<GalleryPage />} /> 
                 <Route path="/centers" element={<CentersPage />} /> 
+                <Route path="/events" element={<EventsPage />} /> 
             </Routes>
         </div>
     );
