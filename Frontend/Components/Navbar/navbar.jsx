@@ -5,7 +5,7 @@ import "./navbar.css";
 
 const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
 
-    const [activeSection, setActiveSection] = useState("#home");
+    const [activeSection, setActiveSection] = useState(Session);
 
     const mobileMenuRef = useRef(null);
 

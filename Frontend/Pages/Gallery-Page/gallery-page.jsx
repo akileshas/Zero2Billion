@@ -9,7 +9,7 @@ const GalleryPage = () => {
 
   return (
     <>
-      <Navbar mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} /> 
+      <Navbar mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} Session = "#gallery"/> 
       <Gallery />
       <Footer />
       <SmallScreen />
