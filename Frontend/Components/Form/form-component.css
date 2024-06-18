@@ -1,0 +1,197 @@
+.container {
+  width: 880px;
+  margin: 130px auto 30px; /* Margin-top: 130px ensures constant padding from the top */
+  font-family: 'Roboto', sans-serif;
+  height: auto;
+}
+
+.header {
+  text-align: center;
+  color: #292f53;
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.underline {
+  width: 86px;
+  height: 3px;
+  background: #3d51a3;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-group {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(17, 17, 18, 0.20);
+  border-radius: 4px;
+  padding: 13px 16px;
+  margin: 5px 0;
+}
+
+.input-group input,
+.input-group select {
+  background-color: #f7f7f7;
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: rgba(17, 17, 18, 0.60);
+  padding: 8px;
+  transition: color 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-group textarea {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 8px;
+  resize: none;
+  min-height: 48px;
+  background-color: #f7f7f7;
+  transition: color 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-group input:focus,
+.input-group textarea:focus,
+.input-group select:focus {
+  color: #0f1a3a;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.submit-button button {
+  padding: 13px 24px;
+  background: #1c199a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button button:hover {
+  background: #1e2c63;
+  color: #fff; /* Changed text color on hover */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1079px) {
+  .container {
+    width: 80%;
+    margin: 130px auto 30px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .underline {
+    width: 70px;
+    height: 3px;
+  }
+
+  .input-group {
+    padding: 10px 12px;
+  }
+
+  .input-group input,
+  .input-group select,
+  .input-group textarea {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .submit-button button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 864px) {
+  .container {
+    width: 90%;
+    margin: 130px auto 30px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .underline {
+    width: 60px;
+    height: 2px;
+  }
+
+  .input-group {
+    padding: 8px 10px;
+  }
+
+  .input-group input,
+  .input-group select,
+  .input-group textarea {
+    font-size: 13px;
+    padding: 5px;
+  }
+
+  .submit-button button {
+    padding: 8px 18px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .container {
+    width: 95%;
+    margin: 130px auto 30px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .underline {
+    width: 50px;
+    height: 2px;
+  }
+
+  .input-group {
+    padding: 6px 8px;
+  }
+
+  .input-group input,
+  .input-group select,
+  .input-group textarea {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  .submit-button button {
+    padding: 6px 16px;
+    font-size: 12px;
+  }
+}
+
