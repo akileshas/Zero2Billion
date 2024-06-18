@@ -18,7 +18,7 @@ const App = () => {
                 <Route path="/centers" element={<CentersPage />} /> 
                 <Route path="/events" element={<EventsPage />} /> 
                 <Route path="/makers-turn" element={<MakersTurnPage />} />
-                <Route path="/form/:id" element={<FormPage />} /> Add the new route
+                <Route path="/form/:id" element={<FormPage />} /> 
             </Routes>
         </div>
     );
