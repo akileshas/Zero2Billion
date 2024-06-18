@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './form-component.css';
 import formsData from '../../../Data/forms-data';
-import supabase from '../../../Backend/supabaseClient';
 
 const FormComponent = ({ formId }) => {
   const form = formsData.find(f => f.id === formId);
