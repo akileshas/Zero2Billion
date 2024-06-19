@@ -125,7 +125,6 @@ const formsData = [
               { type: "text", label: "Submit Your Profile (Drive Link)", name: "document" },
               { type: "select", label: "What category do you belong to?", name: "category", options: ["Individual", "Student"] },
               { type: "select", label: "Are you passionate about exploring the startup ecosystem?", name: "exploringstartupecosystem", options: ["Yes", "No"] },
-              { type: "text", label: "Upload Your Profile or Bio (Drive Link)", name: "document" },
             ]
           }
         },
@@ -145,7 +144,6 @@ const formsData = [
               { type: "text", label: "Submit Your Profile (Drive Link)", name: "profiledocument" },
               { type: "select", label: "What category do you belong to?", name: "category", options: ["Individual", "Student"] },
               { type: "select", label: "Are you passionate about exploring the startup ecosystem?", name: "exploringstartupecosystem", options: ["Yes", "No"] },
-              { type: "text", label: "Upload your profile or bio (Drive Link)", name: "profilebio" },
             ]
           }
         },
@@ -198,7 +196,7 @@ const formsData = [
                 { type: "textarea", label: "Problem Statement", name: "problemstatement" },
                 { type: "textarea", label: "Why a Startup", name: "whystartup" },
                 { type: "textarea", label: "Brief Outline of Your Startup Idea", name: "startupidea" },
-                { type: "textarea", label: "Upload Necessary Supporting Documents", name: "supportingdocuments" }
+                { type: "textarea", label: "Upload Necessary Documents(Drive Link)", name: "supportingdocuments" }
               ]
             }
           },
@@ -213,12 +211,11 @@ const formsData = [
                 { type: "text", label: "Mobile Number", name: "mobilenumber" },
                 { type: "text", label: "Email", name: "email" },
                 { type: "text", label: "City", name: "city" },
-                { type: "file", label: "Upload Supporting Institutional Documents", name: "supportingdocuments" },
+                { type: "text", label: "Upload Supporting Documents(Drive Link)", name: "supportingdocuments" },
                 { type: "textarea", label: "Specific Support Requirements", name: "supportrequirements" },
-                { type: "file", label: "Submit Your Profile", name: "profiledocument" },
+                { type: "text", label: "Submit Your Profile(Drive Link)", name: "profiledocument" },
                 { type: "select", label: "What category do you belong to?", name: "category", options: ["Individual", "Student"] },
                 { type: "select", label: "Are you passionate about exploring the startup ecosystem?", name: "passionateaboutstartupecosystem", options: ["Yes", "No"] },
-                { type: "file", label: "Upload Your Profile or Bio", name: "profiledocument" }
               ]
             }
           },

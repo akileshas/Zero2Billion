@@ -1,37 +1,36 @@
-/* Initial Styles */
 .container {
-  width: 880px;
-  margin: 70px auto 30px; /* Margin-top: 80px ensures constant padding from the top */
+  width: 80%;
+  margin: 70px auto 30px;
   font-family: 'Roboto', sans-serif;
   height: auto;
 }
 
 .header {
-  text-align: center;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
   color: #292f53;
-  position: relative; /* Add position relative */
+  position: relative;
 }
 
 .title {
   font-size: 32px;
   font-weight: 500;
   text-transform: capitalize;
-  display: inline-block; /* Make title inline block */
   margin-bottom: 10px; /* Add some bottom margin */
-  position: relative; /* Add position relative */
+  position: relative;
 }
 
 .title::after {
   content: "";
-  width: 60px; /* Reduced the width of the underline */
+  width: 60px;
   height: 4px;
   border-radius: 5px;
-  margin: 0 auto; /* Center the underline */
-  background-color: #1c199a; /* Changed color to match */
-  position: absolute; /* Position the underline absolutely */
-  bottom: -8px; /* Align the underline above the text */
-  left: 50%; /* Move the underline to the center */
-  transform: translateX(-50%); /* Adjust for center alignment */
+  background-color: #1c199a;
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Form Styles */
@@ -53,6 +52,7 @@ form {
 .input-group input,
 .input-group select,
 .input-group textarea {
+  width: 100%;
   background-color: #f7f7f7;
   border: none;
   outline: none;
@@ -61,6 +61,7 @@ form {
   padding: 8px;
   transition: color 0.3s ease;
   font-family: 'Roboto', sans-serif;
+  word-wrap: break-word; /* Ensure long words break and wrap */
 }
 
 .input-group textarea {
@@ -95,98 +96,4 @@ form {
 
 .submit-button button:hover {
   background: #1e2c63;
-}
-
-/* Responsive Design */
-@media screen and (max-width: 1079px) {
-  .container {
-    width: 80%;
-  }
-
-  .title {
-    font-size: 28px;
-  }
-
-  .title::after {
-    width: 70px;
-    height: 3px;
-  }
-
-  .input-group {
-    padding: 10px 12px;
-  }
-
-  .input-group input,
-  .input-group select,
-  .input-group textarea {
-    font-size: 14px;
-    padding: 6px;
-  }
-
-  .submit-button button {
-    padding: 10px 20px;
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 864px) {
-  .container {
-    width: 90%;
-  }
-
-  .title {
-    font-size: 24px;
-  }
-
-  .title::after {
-    width: 60px;
-    height: 2px;
-  }
-
-  .input-group {
-    padding: 8px 10px;
-  }
-
-  .input-group input,
-  .input-group select,
-  .input-group textarea {
-    font-size: 13px;
-    padding: 5px;
-  }
-
-  .submit-button button {
-    padding: 8px 18px;
-    font-size: 13px;
-  }
-}
-
-@media screen and (max-width: 564px) {
-  .container {
-    width: 95%;
-  }
-
-  .title {
-    font-size: 22px;
-  }
-
-  .title::after {
-    width: 50px;
-    height: 2px;
-  }
-
-  .input-group {
-    padding: 6px 8px;
-  }
-
-  .input-group input,
-  .input-group select,
-  .input-group textarea {
-    font-size: 12px;
-    padding: 4px;
-  }
-
-  .submit-button button {
-    padding: 6px 16px;
-    font-size: 12px;
-  }
 }

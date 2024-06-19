@@ -14,15 +14,15 @@
             title: "SAIN INVESTORS",
             imgSrc: imgScr1,
             description:"Join us as we fuel aspirations, launching groundbreaking ideas into the stratosphere of success.",
-            joinUrl:"",
-        borderColor:"#9747FF",
+            joinUrl:"/form/10",
+            borderColor:"#9747FF",
             
         },
         {
             title: "SAIN STARTUPS",
             imgSrc: imgScr2,
             description:"Join us as we fuel aspirations, launching groundbreaking ideas into the stratosphere of success.",
-            joinUrl:"",
+            joinUrl:"/form/11",
             borderColor:"#5EC110",
 
         },

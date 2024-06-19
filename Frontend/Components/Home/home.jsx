@@ -22,7 +22,7 @@ const Home = ({ mobileMenu }) => {
                     </p>
                 </div>
                 <button className="hc-button-cont">
-                    <Link to="/">Let's Get Started</Link>
+                    <Link to="/for-investment">Let's Get Started</Link>
                 </button>
             </div>
         </section>

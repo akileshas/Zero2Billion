@@ -26,6 +26,7 @@ const Sain = () => {
                         buttonText="Join Now  >>"
                         borderColor={item.borderColor}
                         imgSrc={item.imgSrc}
+                        joinUrl={item.joinUrl}
                     />
                 ))}
             </div>
