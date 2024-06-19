@@ -11,6 +11,7 @@ const Quotes = () => {
                     <p className="qc-quote">{QuotesData.quote}</p>
                 </div>
                 <p className="qc-author">{QuotesData.author}</p>
+                <p className="qc-description">{QuotesData.description}</p>
             </div>
         </section>
     )
