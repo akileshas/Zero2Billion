@@ -6,7 +6,7 @@ import "./navbar.css";
 const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
 
     const [activeSection, setActiveSection] = useState(Session);
-
+    const [scrollY, setScrollY] = useState(0);
     const mobileMenuRef = useRef(null);
 
     const toggleMobileMenu = () => {
@@ -18,6 +18,17 @@ const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
             setMobileMenu(false);
         }
     };
+
+    const handleScroll = () => {
+        setScrollY(window.scrollY);
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     useEffect(() => {
         handleResize();
@@ -62,7 +73,13 @@ const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
 
     return (
         <nav id="navbar">
-            <div className="navbar-cont" style={{ position: !mobileMenu ? "" : "relative" }}>
+            <div 
+                className="navbar-cont" 
+                style={{ 
+                    position: !mobileMenu ? "" : "relative",
+                    boxShadow: scrollY > 100 ? "0 0 10px 0 rgba(0, 0, 0, 0.1)" : "none"
+                }}
+            >
                 <div className="nav-cont" style={{ display: mobileMenu ? "none" : "flex" }}>
                     <div className="nav-img-container">
                         <Link to={"/"}>

@@ -19,18 +19,20 @@ const HomePage = () => {
     return (
         <>
             <Navbar mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} Session={"#home"} />
-            <Home mobileMenu={mobileMenu} />
-            <Quotes />
-            <About />
-            <Why />
-            <Support />
-            <Services />
-            <Centres />
-            <StartupProgram />
-            <Apply />
-            <Know />
-            <Footer />
-            <SmallScreen />
+            <section id="home-page">
+                <Home mobileMenu={mobileMenu} />
+                <Quotes />
+                <About />
+                <Why />
+                <Support />
+                <Services />
+                <Centres />
+                <StartupProgram />
+                <Apply />
+                <Know />
+                <Footer />
+                <SmallScreen />
+            </section>
         </>
     );
 };

@@ -123,7 +123,7 @@
     }
 }
 
-@media screen and (min-width: 350px) and (max-width: 644px) {
+@media screen and (min-width: 350px) and (max-width: 670px) {
     .join-makers-turn-cont .jmtc-description-cont {
         display: inline;
         width: 90%;
@@ -151,6 +151,10 @@
     .join-makers-turn-cont .jmtc-title {
         font-size: 1.4rem;
         font-weight: 500;
+    }
+
+    .join-makers-turn-cont .jmtc-title::after {
+        bottom: -5px;
     }
 }
 
