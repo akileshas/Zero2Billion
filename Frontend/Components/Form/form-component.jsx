@@ -30,7 +30,6 @@ const FormComponent = ({ formId }) => {
     <div className="container">
       <div className="header">
         <div className="title">{form.data.title}</div>
-        <div className="underline"></div>
       </div>
       <form onSubmit={handleSubmit}>
         {form.data.fields.map((field, index) => (

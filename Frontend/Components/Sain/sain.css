@@ -1,9 +1,9 @@
-/* sain.css */
-
 /* Global styles */
 .sain-container {
     font-family: 'Roboto', sans-serif;
     margin-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .header {
@@ -15,7 +15,9 @@
     width: 100%;
     max-width: 1200px;
     padding-top: 50px;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+    text-align: left;
 }
 
 .header-text {
@@ -29,16 +31,27 @@
     font-size: 28px;
     font-weight: 700;
     text-transform: capitalize;
-    text-align: left;
     margin-bottom: 20px;
     margin-top: 5px;
+    position: relative;
+}
+
+.header h1::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    width: 50%; /* Half the width of the title */
+    height: 5px;
+    background: #3D51A3;
+    border-radius: 10px;
 }
 
 .header h2 {
     font-size: 20px;
     font-weight: 900;
     text-transform: capitalize;
-    text-align: left;
     margin-top: 30px;
     color: #0F1A3A;
 }
@@ -50,20 +63,18 @@
     line-height: 26px;
     text-align: justify;
     margin-top: 30px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .header .underline {
-    width: 400px;
-    height: 5px;
-    background: #3D51A3;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    display: none;
 }
 
 .header-image {
     position: absolute;
-    top: -50px;
-    right: -300px;
+    top: -20px;
+    right: -250px;
 }
 
 .header-image img {
@@ -77,6 +88,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 50px;
     margin-top: 50px;
 }
 
@@ -85,47 +97,133 @@
     border-top: 7px solid;
     border-radius: 5px;
     padding: 20px 30px;
-    width: 350px;
-    min-height: px; /* Increase card height */
+    width: 393px;
+    min-height: 200px;
     text-align: left;
     position: relative;
     background-color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-right: 20px;
     font-family: 'Roboto', sans-serif;
-    display: flex; /* Align items horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .sain-card-image {
-    width: 50px; /* Adjust image size as needed */
+    width: 50px;
     height: auto;
-    margin-right: 20px; /* Spacing between image and content */
+    margin-right: 20px;
 }
 
 .sain-card-content {
-    flex: 1; /* Take remaining space */
+    flex: 1;
+    margin-bottom: 15px;
 }
 
 .sain-card-title {
     font-size: 22px;
     font-weight: 500;
     color: #0F1A3A;
-    margin-bottom: 10px; /* Reduce margin */
+    margin-bottom: 15px;
 }
 
 .sain-card-description {
     font-size: 16px;
     font-weight: 300;
-    margin-bottom: 20px; /* Increase margin */
+    margin-bottom: 30px;
     color: #707071;
 }
 
 .sain-card-button {
-    background-color: #3D51A3;
+    background-color: #1C199A;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.sain-card-button:hover {
+    background-color: #3D51A3;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1150px) {
+    .sain-container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .header,
+    .sain-card {
+        margin-left: 0;
+    }
+
+    .sain-card {
+        margin-right: 20px; /* Same right margin as before */
+        margin-bottom: 20px; /* Add bottom margin for spacing */
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+        display: block;
+        text-align: center;
+    }
+
+    .header-text {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .header h1,
+    .header h2 {
+        text-align: center;
+    }
+
+    .header p {
+        text-align: justify;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header .underline {
+        width: 50%;
+        margin: 0 auto 10px auto;
+    }
+
+    .header-image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .sain-card {
+        width: 393px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px; /* Add bottom margin for spacing */
+        padding: 20px 30px; /* Maintain the same padding */
+    }
+
+    .sain-card-title {
+        font-size: 22px; /* Maintain the same font size */
+    }
+
+    .sain-card-description {
+        font-size: 16px; /* Maintain the same font size */
+    }
+
+    .sain-card-button {
+        padding: 10px 20px; /* Maintain the same padding */
+        font-size: 16px; /* Maintain the same font size */
+    }
+}
+
+@media screen and (max-width: 349px) {
+    .sain-container {
+        display: none;
+    }
 }

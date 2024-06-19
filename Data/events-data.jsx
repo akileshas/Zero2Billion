@@ -23,76 +23,76 @@ export const EventsData = [
     
     {
         completed : true,
-        imgSrc: event2,
+        imgSrc: event1,
         linkUrl : "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
     },
     
     {
         completed : true,
-        imgSrc: event3,
+        imgSrc: event1,
         linkUrl : "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
     },
     
     {
         completed : true,
-        imgSrc: event4,
+        imgSrc: event1,
         linkUrl : "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
     },
     
     {
         completed : true,
-        imgSrc: event5,
+        imgSrc: event1,
         linkUrl : "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
     },
     
     {
         completed : true,
-        imgSrc: event6,
+        imgSrc: event1,
         linkUrl : "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
     },
     
     {
         completed : true,
-        imgSrc: event7,
+        imgSrc: event1,
         linkUrl : "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
     },
     
     {
         completed : true,
-        imgSrc: event8,
+        imgSrc: event1,
         linkUrl : "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
     },
     
     {
         completed : true,
-        imgSrc: event9,
+        imgSrc: event1,
         linkUrl : "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
     },
     
     {
         completed : true,
-        imgSrc: event10,
+        imgSrc: event1,
         linkUrl : "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
     },
     
     {
         completed : true,
-        imgSrc: event11,
+        imgSrc: event1,
         linkUrl : "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
     },
     {
         completed : true,
-        imgSrc: event12,
+        imgSrc: event1,
         linkUrl : "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
     },
     {
         completed : true,
-        imgSrc: event13,
+        imgSrc: event1,
         linkUrl : "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
     },
     {
         completed : true,
-        imgSrc: event14,
+        imgSrc: event1,
         linkUrl : "https://www.instagram.com/zero2billion?igsh=MXJyenVlc3k2cmVwcA==",
     },
 ];

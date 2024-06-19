@@ -92,7 +92,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
                                 <a href="/#home">Home</a>
                             </li>
                             <li className={`${activeSection === "#about" ? "active" : ""}`}>
-                                <a href="/#about">About</a>
+                                <a href="/about">About</a>
                             </li>
                             <li className={`${activeSection === "#services" ? "active" : ""}`}>
                                 <a href="/#services">Services</a>
@@ -138,7 +138,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
                             <a href="/#home" onClick={toggleMobileMenu}>Home</a>
                         </li>
                         <li className={`${activeSection === "#about" ? "active" : ""}`}>
-                            <a href="/#about" onClick={toggleMobileMenu}>About</a>
+                            <a href="/about" onClick={toggleMobileMenu}>About</a>
                         </li>
                         <li className={`${activeSection === "#services" ? "active" : ""}`}>
                             <a href="/#services" onClick={toggleMobileMenu}>Services</a>
@@ -147,10 +147,10 @@ const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
                             <a href="/#centers" onClick={toggleMobileMenu}>Centers</a>
                         </li>
                         <li className={`${activeSection === "#makers-turn" ? "active" : ""}`}>
-                            <Link to={"/"} onClick={toggleMobileMenu}>Makers Turn</Link>
+                            <Link to="/makers-turn" onClick={toggleMobileMenu}>Makers Turn</Link>
                         </li>
                         <li className={`${activeSection === "#events" ? "active" : ""}`}>
-                            <Link to={"/"} onClick={toggleMobileMenu}>Events</Link>
+                            <Link to="/events" onClick={toggleMobileMenu}>Events</Link>
                         </li>
                         <li className={`${activeSection === "#gallery" ? "active" : ""}`}>
                         <Link to="/gallery" onClick={toggleMobileMenu}>Gallery</Link>

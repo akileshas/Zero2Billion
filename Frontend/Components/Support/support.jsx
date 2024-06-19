@@ -8,7 +8,7 @@ const Support = () => {
         <section id="support">
             <div className="support-cont">
                 <p className="sc-title">
-                    Whom We Support
+                    Our Tri-Cycle Process
                 </p>
                 <div className="sc-card-cont">
                     {SupportData.map((item, index) => (

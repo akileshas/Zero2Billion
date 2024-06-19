@@ -7,6 +7,10 @@ import EventsPage from "./Pages/Events-Page/events-page";
 import MakersTurnPage from "./Pages/Makers-Turn-Page/makers-turn-page";
 import NotFoundPage from "./Pages/Not-Found-Page/not-found-page";
 import "./App.css";
+import InvestmentPage from "./Pages/Investment-Page/investment-page";
+import FormPage from "./Pages/Form-Page/form-page";
+import AboutPage from "./Pages/About-Page/about-page";
+
 
 export const useScrollToTop = () => {
     const { pathname } = useLocation();
@@ -28,6 +32,9 @@ const App = () => {
                 <Route path="/events" element={<EventsPage />} /> 
                 <Route path="/makers-turn" element={<MakersTurnPage />} />
                 <Route path="*" element={<NotFoundPage />} />
+                <Route path="for-investment" element={<InvestmentPage />} />
+                <Route path="/form/:id" element={<FormPage />} />
+                <Route path="/about" element={<AboutPage />} />
             </Routes>
         </div>
     );
