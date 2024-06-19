@@ -1,12 +1,20 @@
 import React, { useState } from 'react';
 import './form-component.css';
 import formsData from '../../../Data/forms-data';
-
+import { SupaBaseApi } from '../../../api';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const FormComponent = ({ formId }) => {
+
+  const success = () => toast('SUCESS 😘😘');
+  const failure = () => toast('INTERNAL SERVER ERROR ☠️');
+
+
   const form = formsData.find(f => f.id === formId);
   if (!form) {
     return <div>Form not found</div>;
   }
+  const title = formsData[formId-1].data.title;
   const [formData, setFormData] = useState(
     form.data.fields.reduce((acc, field) => {
       acc[field.name] = '';
@@ -21,12 +29,21 @@ const FormComponent = ({ formId }) => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     console.log('Form Data Submitted: ', formData);
+    const res = await SupaBaseApi.insertApi(title , formData);
+    if(res != null){
+      success();
+    }
+    else{
+      failure();
+    }
   };
 
   return (
+    <>
+    <ToastContainer/>
     <div className="container">
       <div className="header">
         <div className="title">{form.data.title}</div>
@@ -69,6 +86,7 @@ const FormComponent = ({ formId }) => {
         </div>
       </form>
     </div>
+    </>
   );
 };
 
