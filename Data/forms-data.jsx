@@ -12,7 +12,7 @@ const formsData = [
           { type: "email", label: "Email", name: "email", alignment: "right" },
           { type: "textarea", label: "Problem Statement", name: "problemstatement", alignment: "left" },
           { type: "textarea", label: "Why Startup", name: "whystartup", alignment: "left" },
-          { type: "textarea", label: "Brief outline on your Startup Idea?", name: "briefoutlineonyourstartupidea?", alignment: "left" },
+          { type: "textarea", label: "Brief outline on your Startup Idea?", name: "briefoutlineonyourstartupidea", alignment: "left" },
           { type: "text", label: "Attach Document (Drive Link)", name: "document", alignment: "left" },
         ]
       }
@@ -27,7 +27,7 @@ const formsData = [
           { type: "text", label: "Startup Domain", name: "startupdomain", alignment: "left" },
           { type: "tel", label: "Mobile Number", name: "mobile", alignment: "left" },
           { type: "select", label: "Is your Startup DPIIT Registered?", name: "registered", options: ["Yes", "No"] },
-          { type: "select", label: "Type of Valuation", name: "TypeofValuation", options: ["pre-money valuation", "post-money valuation"] },
+          { type: "select", label: "Type of Valuation", name: "typeofvaluation", options: ["pre-money valuation", "post-money valuation"] },
           { type: "text", label: "Attach Document (Drive Link)", name: "doc", alignment: "left" },
         ]
       }
@@ -39,7 +39,7 @@ const formsData = [
         fields: [
           { type: "text", label: "Name", name: "name", alignment: "left" },
           { type: "email", label: "Email", name: "email", alignment: "right" },
-          { type: "text", label: "Organization", name: "Organization", alignment: "left" },
+          { type: "text", label: "Organization", name: "organization", alignment: "left" },
           { type: "tel", label: "Mobile Number", name: "mobile", alignment: "right" },
           { type: "textarea", label: "Describe Your Problem Statement", name: "describeyourproblemstatement", alignment: "left" },
           { type: "textarea", label: "What solution are you looking for?", name: "whatsolutionareyoulookingfor", alignment: "left" },
@@ -59,8 +59,8 @@ const formsData = [
           { type: "select", label: "Applicant Category", name: "applicantcategory", options: ["Student", "Individual", "Faculty"], alignment: "right" },
           { type: "textarea", label: "Domain Interest", name: "domaininterest", alignment: "left" },
           { type: "textarea", label: "Acquired Skills? Mention in brief", name: "skills", alignment: "left" },
-          { type: "textarea", label: "Internship Duration", name: "InternshipDuration", alignment: "left" },
-          { type: "text", label: "Submit your profile or bio (Drive Link)", name: "Submityourprofileorbio", alignment: "left" },
+          { type: "textarea", label: "Internship Duration", name: "internshipduration", alignment: "left" },
+          { type: "text", label: "Submit your profile or bio (Drive Link)", name: "submityourprofileorbio", alignment: "left" },
         ]
       }
     },
@@ -90,9 +90,9 @@ const formsData = [
           { type: "text", label: "Name", name: "name" },
           { type: "text", label: "How many years since inception", name: "howmanyyearssinceinception" },
           { type: "select", label: "Type of Startups", name: "typesofstartups", options: ["Product Based", "Service Based"] },
-          { type: "text", label: "GTM Experience in Other Countries? Mention if any", name: "GTMexperienceinothercountriesMentionifany" },
+          { type: "text", label: "GTM Experience in Other Countries? Mention if any", name: "gtmexperienceinothercountriesmentionifany" },
           { type: "text", label: "Upload Supporting Documents (Drive Link)", name: "document" },
-          { type: "textarea", label: "What kind of support do you require from us specifically?", name: "Description" },
+          { type: "textarea", label: "What kind of support do you require from us specifically?", name: "description" },
         ]
       }
     },
@@ -119,9 +119,9 @@ const formsData = [
               { type: "text", label: "Mobile Number", name: "mobilenumber" },
               { type: "email", label: "Email", name: "email" },
               { type: "text", label: "COE Domain", name: "coedomain" },
-              { type: "textarea", label: "If you're an institution member, do you require establishing a new COE or revamping the existing one?", name: "institutionDescription" },
-              { type: "textarea", label: "If you're a startup, do you have any experience in establishing a COE or plans to adapt your technology in institutions?", name: "startupDescription" },
-              { type: "textarea", label: "If you're an industry member, why do you prefer establishing a COE in institutions?", name: "industryDescription" },
+              { type: "textarea", label: "If you're an institution member, do you require establishing a new COE or revamping the existing one?", name: "institutiondescription" },
+              { type: "textarea", label: "If you're a startup, do you have any experience in establishing a COE or plans to adapt your technology in institutions?", name: "startupdescription" },
+              { type: "textarea", label: "If you're an industry member, why do you prefer establishing a COE in institutions?", name: "industrydescription" },
               { type: "text", label: "Submit Your Profile (Drive Link)", name: "document" },
               { type: "select", label: "What category do you belong to?", name: "category", options: ["Individual", "Student"] },
               { type: "select", label: "Are you passionate about exploring the startup ecosystem?", name: "exploringstartupecosystem", options: ["Yes", "No"] },
@@ -157,7 +157,7 @@ const formsData = [
               { type: "text", label: "Name", name: "nameoftheInvestor", alignment: 'left' },
               { type: "tel", label: "Mobile Number", name: "mobilenumber", alignment: 'right' },
               { type: "email", label: "Email", name: "email", alignment: 'left' },
-              { type: "text", label: "Organization", name: "Org", alignment: 'right' },
+              { type: "text", label: "Organization", name: "org", alignment: 'right' },
               { type: "select", label: "Startup Stage", name: "startupstage", options: ["Seed Stage", "Early Stage", "Late Stage"], alignment: 'left' },
               { type: "text", label: "Your Portfolio", name: "portfolio", alignment: 'right' },
               { type: "text", label: "Interested Thrust Area?", name: "interestedthrustarea", alignment: 'left' },
