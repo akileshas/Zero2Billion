@@ -133,13 +133,13 @@
 }
 
 @media screen and (max-width: 349px) {
-    #about {
+    #aboutus {
         display: none;
     }
 }
 
 @media screen and (max-height: 349px) {
-    #about {
+    #aboutus {
         display: none;
     }
 }

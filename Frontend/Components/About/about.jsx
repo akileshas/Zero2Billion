@@ -5,7 +5,7 @@ import "./about.css";
 
 const About = () => {
     return (
-        <section id="about">
+        <section id="aboutus">
             <div className="about-cont">
                 {
                     AboutData.map((item, index) => {

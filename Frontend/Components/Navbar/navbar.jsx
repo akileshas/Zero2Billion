@@ -95,7 +95,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
                         </ul>
 
                         <button className="investment-button">
-                            <Link to={"/"}>
+                            <Link to={"/for-investment"}>
                                 For Investment
                             </Link>
                         </button>
@@ -139,7 +139,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
                         <Link to="/gallery" onClick={toggleMobileMenu}>Gallery</Link>
                         </li>
                     </ul>
-                    <button className="investment-button"><Link to={"/"}>For Investment</Link></button>
+                    <button className="investment-button"><Link to={"/for-investment"}>For Investment</Link></button>
                 </div>
                 {mobileMenu && <div onClick={toggleMobileMenu} className="nav-mobile-overlay"></div>}
             </div>
