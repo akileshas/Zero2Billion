@@ -1,4 +1,4 @@
-import supabase from '../config/config';
+import supabase from '../config/configuration.js';
 
 const insertApi = async (title , array) =>{
     try{
