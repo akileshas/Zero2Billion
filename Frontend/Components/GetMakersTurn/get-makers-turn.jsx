@@ -6,7 +6,7 @@ import "./get-makers-turn.css";
 
 const GetMakersTurn = () => {
     return (
-        <section id="get-makers-turn">
+        <div id="get-makers-turn">
             <div className="get-makers-turn-cont">
                 <p className="gmtc-title">
                     What You Get at MakersTurn !
@@ -35,7 +35,7 @@ const GetMakersTurn = () => {
                     }
                 </div>
             </div>
-        </section>
+        </div>
     )
 };
 

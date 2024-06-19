@@ -8,7 +8,7 @@ import "./why.css";
 const Why = () => {
     const [ref, inView] = useInView({
         triggerOnce: true,
-        threshold: 0.6,
+        threshold: 0.1,
     });
 
     return (

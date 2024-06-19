@@ -5,7 +5,7 @@ import "./join-makers-turn.css";
 
 const JoinMakersTurn = () => {
     return (
-        <section id="join-makers-turn">
+        <div id="join-makers-turn">
             <div className="join-makers-turn-cont">
                 <p className="jmtc-title">
                     Who Should Join MakersTurn ?
@@ -31,7 +31,7 @@ const JoinMakersTurn = () => {
                     }
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 

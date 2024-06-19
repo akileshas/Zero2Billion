@@ -30,6 +30,9 @@ const GetMakersTurnCard = ({ number, title, description, imgScr, redirectUrl, st
                     <p className="gmtc-cc-cc-description">
                         {description}
                     </p>
+                    <div className="gmtc-cc-cc-bg-img-cont">
+                        <img src={imgScr} alt="" />
+                    </div>
                 </OverlayContainerDiv>
                 <div className="gmtc-cc-cc-img-cont">
                     <img src={imgScr} alt="" />

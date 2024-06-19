@@ -117,7 +117,7 @@
     padding: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: flex-start;
     gap: 10px;
 }
@@ -142,6 +142,7 @@
 
 .get-makers-turn-cont .gmtc-card-cont .gmtc-cc-card .gmtc-cc-card-cont .gmtc-cc-cc-up-overlay-cont .gmtc-cc-cc-title {
     font-size: 1.85rem;
+    z-index: 4;
 }
 
 .get-makers-turn-cont .gmtc-card-cont .gmtc-cc-card .gmtc-cc-card-cont .gmtc-cc-cc-up-overlay-cont .gmtc-cc-cc-description {
@@ -150,6 +151,24 @@
     font-size: 1rem;
     text-align: left;
     color: var(--color-0F1A3A);
+    z-index: 4;
+}
+
+.get-makers-turn-cont .gmtc-card-cont .gmtc-cc-card .gmtc-cc-card-cont .gmtc-cc-cc-up-overlay-cont .gmtc-cc-cc-bg-img-cont {
+    width: auto;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+    z-index: 1;
+    filter: brightness(20);
+    transform: translateX(40px) translateY(25px) rotate(40deg);
+}
+
+.get-makers-turn-cont .gmtc-card-cont .gmtc-cc-card .gmtc-cc-card-cont .gmtc-cc-cc-up-overlay-cont .gmtc-cc-cc-bg-img-cont img {
+    width: auto;
+    height: 100%;
 }
 
 @media screen and (min-width: 350px) and (max-width: 399px) {

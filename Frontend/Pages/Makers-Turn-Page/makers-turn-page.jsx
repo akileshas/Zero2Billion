@@ -11,8 +11,10 @@ const MakersTurnPage = () => {
     return (
         <>
             <Navbar mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} Session={"#makers-turn"}/>
-            <GetMakersTurn />
-            <JoinMakersTurn />
+            <section id="makers-turn">
+                <GetMakersTurn />
+                <JoinMakersTurn />
+            </section>
             <Footer />
             <SmallScreen />
         </>
