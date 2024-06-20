@@ -15,8 +15,9 @@ const About = () => {
                                 number={index+1}
                                 title={item.title}
                                 description={item.description}
-                                highlightDetails={item.highlightDetails}
+                                highlightAfter={item.highlightAfter}
                                 imgScr={item.imgScr}
+                                highlightBefore={item.highlightBefore}
                             />
                         )
                     })

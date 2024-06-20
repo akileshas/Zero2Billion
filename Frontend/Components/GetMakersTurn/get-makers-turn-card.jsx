@@ -1,42 +1,37 @@
 import React from "react";
 import styled from "styled-components";
-import redirectLogo from '../../../Data/Images/redirect-up-arrow.png';
 import { Link } from "react-router-dom";
+import redirectLogo from '../../../Data/Images/redirect-up-arrow.png';
 
 const CardContainerDiv = styled.div`
-    &:hover .gmtc-cc-cc-up-overlay-cont {
-        background-color: var(--color-8597E1);
-    }
+    /* Set background image */
+    position: relative;
+    background-image: url(${props => props.bgImg});
+    background-size: cover;
 `;
 
 const OverlayContainerDiv = styled.div`
     background-color: ${props => props.stripColor};
 `;
 
-const GetMakersTurnCard = ({ number, title, description, imgScr, redirectUrl, stripColor }) => {
+const GetMakersTurnCard = ({ number, title, description, redirectUrl, stripColor, bgImg }) => {
     return (
         <div className={`gmtc-cc-card gmtc-cc-card-${number}`}>
-            <CardContainerDiv className="gmtc-cc-card-cont">
-                <Link to={redirectUrl} className="gmtc-cc-cc-redirect">
-                    <img src={redirectLogo} alt="" />
-                </Link>
+            <CardContainerDiv className="gmtc-cc-card-cont" bgImg={bgImg}>
                 <OverlayContainerDiv 
                     className="gmtc-cc-cc-up-overlay-cont"
                     stripColor={stripColor}
                 >
+                    <Link to={redirectUrl} className="gmtc-cc-cc-redirect">
+                        <img src={redirectLogo} alt="" />
+                    </Link>
                     <p className="gmtc-cc-cc-title">
                         {title}
                     </p>
                     <p className="gmtc-cc-cc-description">
                         {description}
                     </p>
-                    <div className="gmtc-cc-cc-bg-img-cont">
-                        <img src={imgScr} alt="" />
-                    </div>
                 </OverlayContainerDiv>
-                <div className="gmtc-cc-cc-img-cont">
-                    <img src={imgScr} alt="" />
-                </div>
                 <p className="gmtc-cc-cc-title">
                     {title}
                 </p>
