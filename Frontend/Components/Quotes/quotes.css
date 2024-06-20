@@ -62,7 +62,7 @@
 }
 
 .quotes-cont .qc-author::before {
-    content: "—";
+    content: "~";
     margin-right: 5px;
 }
 

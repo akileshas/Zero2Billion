@@ -4,7 +4,7 @@
 
     export const headingDetails = {
         bgImg :  imgscr3,
-        heading: "SECURE ANGEL INVESTMENT NETWORK ",
+        heading: "SECURE ANGEL INVESTMENT NETWORK (SAIN)",
         headingDescription: "Welcome to SAIN (Secure Angel Investor Network), where trailblazing investors and driven entrepreneurs converge to ignite the spark of innovation across India. Together, let's champion the ethos of entrepreneurship and carve out a legacy of transformative impact. ",
         tagline:"Innovation Knows No Bounds",
     };

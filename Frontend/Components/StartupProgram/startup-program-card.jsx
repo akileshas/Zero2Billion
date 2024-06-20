@@ -33,12 +33,12 @@ const StartupProgramCard = ({ number, numberStr, title, points, imgScr, redirect
                         {numberStr}
                     </p>
                 </div>
-                <Link
+                {/* <Link
                     to={redirectUrl}
                     className="spc-cc-cc-button"
                 >
                     Know More &nbsp; <img src={arrowImg} alt="" />
-                </Link>
+                </Link> */}
             </div>
         </div>
     );
