@@ -2,37 +2,37 @@ export const AssistanceData = [
     {
         title: "Finding and Assessing Deals",
         doubleLine: true,
-        description: "Identifying promising investment opportunities within startups and entrepreneurial ventures. Conducting thorough evaluations of each opportunity, ensuring alignment with our investment objectives and maximizing success potential."
+        description: "Identifying the promising investment opportunities within startups and entrepreneurial ventures. Conducting thorough evaluations of each opportunity, ensuring alignment with our investment objectives and maximizing success potential."
     },
     {
         title: "Due Diligence",
         doubleLine: false,
-        description: "Before investing, we conduct thorough checks on every aspect of potential opportunities. This includes examining finances, legalities, and operations to gauge viability and risks. Our meticulous process ensures that every investment aligns with our goals and offers maximum potential for success."
+        description: "Before investing, we meticulously examine finances, legalities, and operations to gauge viability and risks. This ensures alignment with our goals and maximizes the potential for success in each investment opportunity."
     },
     {
         title: "Investor Learning And Connections",
         doubleLine: true,
-        description: "Our platform offers a unique blend of educational resources and networking opportunities tailored to investors of all levels. Whether you're just starting out or looking to expand your portfolio, our community provides valuable insights, expert advice, and meaningful connections to help you achieve your financial goals."
+        description: "Our platform combines educational resources and networking opportunities for investors at all levels. Whether you're a beginner or an experienced investor, our community offers valuable insights, expert advice, and connections to help you achieve your financial goals."
     },
     {
         title: "Deal Formation And Discussion",
         doubleLine: true,
-        description: "Our platform specializes in guiding clients through the intricacies of structuring deals and navigating negotiations effectively. We provide tailored strategies and practical advice to ensure that each transaction is optimized for success. Join our community to enhance your deal-making skills and achieve your business objectives with confidence."
+        description: "We specialize in guiding clients through deal structuring and negotiations, offering tailored strategies for our optimized success. Join us to enhance your deal-making skills and achieve business objectives confidently."
     },
     {
         title: "Asset Portfolio Supervision",
         doubleLine: true,
-        description: "Our team excels in the diligent oversight of investment portfolios . Through careful analysis and proactive decision-making, we work tirelessly to safeguard and grow our clients' investments. Join us to experience the peace of mind that comes with expert portfolio management."
+        description: "We excel in diligent portfolio oversight, ensuring growth and security through a proactive decision-making. Experience peace of mind with our expert management. Join us for optimized investment growth and protection."
     },
     {
         title: "Startup Mentorship",
         doubleLine: true,
-        description: "Our startup mentorship program offers invaluable insights and tailored advice to aspiring entrepreneurs. Through one-on-one mentorship sessions and collaborative workshops,Join our community to accelerate your entrepreneurial journey and turn your vision into reality."
+        description: "Join our startup mentorship program for invaluable insights and tailored advice. Benefit from one-on-one sessions and collaborative workshops to accelerate your journey. Join our community to turn your vision into reality faster."
     },
     {
         title: "Subsequent Investment",
         doubleLine: true,
-        description: "Explore ongoing investment opportunities with our platform, designed to support the growth and expansion of promising ventures. Gain access to a curated selection of follow-on investment options, enabling you to further fuel the success of your portfolio. Join us to seize the potential of continued investment in tomorrow's innovations."
+        description: "Discover ongoing investment opportunities supporting the growth of promising ventures. Access curated follow-on options to fuel portfolio success. Join us to seize tomorrow's innovations with continued investment potential."
     },
     {
       

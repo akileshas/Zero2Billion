@@ -1,4 +1,3 @@
-import React from "react";
 import imgScr1 from "./Images/innovation-hub-img.png";
 import imgscr2 from "./Images/machinery-img.png";
 import imgScr3 from "./Images/mentoring-img.png";
