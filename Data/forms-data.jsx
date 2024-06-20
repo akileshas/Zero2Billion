@@ -177,7 +177,7 @@ const formsData = [
                 { type: "text", label: "Dept and Yr", name: "department&yr", alignment: "right" },
                 { type: "textarea", label: "Problem Statement", name: "problemstatement1", alignment: "left" },
                 { type: "textarea", label: "Why Startup", name: "whystartup1", alignment: "left" },
-                { type: "textarea", label: "Brief outline on your Startup Idea?", name: "briefoutlineonyourstartupidea?", alignment: "left" },
+                { type: "textarea", label: "Brief outline on your Startup Idea?", name: "briefoutlineonyourstartupidea", alignment: "left" },
                 { type: "text", label: "Attach Document (Drive Link)", name: "document1", alignment: "left" },
               ]
             }

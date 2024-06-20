@@ -15,7 +15,7 @@ const FormComponent = ({ formId }) => {
       navigate('/');
     }, 1500); // Redirect to home page after 2 seconds
   };
-  const failure = () => toast('INTERNAL SERVER ERROR ☠️');
+  const failure = () => toast('SERVER ERROR');
   const validationError = () => toast('Please fill out all fields');
 
   const form = formsData.find(f => f.id === formId);
