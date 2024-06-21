@@ -10,10 +10,8 @@
     justify-content: center;
     align-items: center;
     padding: 5rem 0;
-    /* Reduced padding */
     background-color: var(--color-FFFFFF);
     gap: 3rem;
-    /* Reduced gap */
 }
 
 .footer-cont .fc-img-sec {
@@ -21,10 +19,8 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    /* Reduced gap */
     transform: scale(1.1);
     margin-left: 5rem;
-    /* Reduced margin */
 }
 
 .footer-cont .fc-img-sec .fc-is-img-cont {
@@ -56,7 +52,6 @@
 .footer-cont .fc-links-sec {
     display: flex;
     gap: 3rem;
-    /* Reduced gap */
     flex-wrap: wrap;
 }
 
@@ -66,7 +61,6 @@
 .footer-cont .fc-links-sec .fc-ls-contact-details {
     flex: 1;
     min-width: 200px;
-    /* Ensures columns are responsive */
 }
 
 .footer-cont .fc-links-sec .fc-ls-scroll-highlight-links,
@@ -133,7 +127,6 @@
 .footer-cont .fc-links-sec .fc-ls-page-links {
     display: flex;
     gap: 3rem;
-    /* Reduced gap */
 }
 
 .footer-cont .fc-links-sec .fc-ls-contact-details {
@@ -167,6 +160,16 @@
     margin: 0;
 }
 
+.footer-cont .fc-links-sec .fc-ls-contact-details a {
+    color: var(--color-0F1A3A);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-cont .fc-links-sec .fc-ls-contact-details a:hover {
+    color: var(--color-1C199A);
+}
+
 /* Media Queries */
 @media screen and (min-width: 1080px) and (max-width: 1179px) {
     .footer-cont .fc-img-sec {
@@ -177,20 +180,16 @@
 @media screen and (min-width: 892px) and (max-width: 1108px) {
     .footer-cont .fc-links-sec .fc-ls-contact-details {
         margin-left: -15rem;
-        /* Adjust margin to move the contact details left */
     }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1079px) {
-
     .footer-cont {
         flex-direction: column;
         gap: 4rem;
-        /* Adjusted gap */
         align-items: flex-start;
         justify-content: center;
         padding: 5rem 5rem;
-        /* Adjusted padding */
     }
 
     .footer-cont .fc-links-sec .fc-ls-contact-details {
@@ -205,12 +204,10 @@
 
     .footer-cont .fc-links-sec {
         gap: 3rem;
-        /* Adjusted gap */
     }
 
     .footer-cont .fc-links-sec .fc-ls-page-links {
         gap: 3rem;
-        /* Adjusted gap */
     }
 }
 
@@ -218,13 +215,10 @@
     .footer-cont {
         flex-direction: column;
         gap: 4rem;
-        /* Adjusted gap */
         align-items: flex-start;
         justify-content: center;
         padding: 5rem 5rem;
-        /* Adjusted padding */
     }
-
 
     .footer-cont .fc-img-sec {
         width: 30vw;
@@ -233,12 +227,10 @@
 
     .footer-cont .fc-links-sec {
         gap: 3rem;
-        /* Adjusted gap */
     }
 
     .footer-cont .fc-links-sec .fc-ls-page-links {
         gap: 3rem;
-        /* Adjusted gap */
     }
 
     .footer-cont .fc-links-sec .fc-ls-contact-details {
@@ -247,16 +239,13 @@
     }
 }
 
-
 @media screen and (min-width: 565px) and (max-width: 864px) {
     .footer-cont {
         flex-direction: column;
         gap: 4rem;
-        /* Adjusted gap */
         align-items: flex-start;
         justify-content: center;
         padding: 5rem 5rem;
-        /* Adjusted padding */
     }
 
     .footer-cont .fc-img-sec {
@@ -268,12 +257,10 @@
         width: 100%;
         justify-content: space-between;
         gap: 1rem;
-        /* Adjusted gap */
     }
 
     .footer-cont .fc-links-sec .fc-ls-page-links {
         gap: 1rem;
-        /* Adjusted gap */
     }
 
     .footer-cont .fc-links-sec .fc-ls-contact-details {
@@ -286,11 +273,9 @@
     .footer-cont {
         flex-direction: column;
         gap: 4rem;
-        /* Adjusted gap */
         align-items: flex-start;
         justify-content: center;
         padding: 5rem 5rem;
-        /* Adjusted padding */
     }
 
     .footer-cont .fc-img-sec {
@@ -302,7 +287,6 @@
         width: 100%;
         justify-content: space-between;
         gap: 2rem;
-        /* Adjusted gap */
     }
 
     .footer-cont .fc-links-sec .fc-ls-page-links {
@@ -320,11 +304,9 @@
     .footer-cont {
         flex-direction: column;
         gap: 4rem;
-        /* Adjusted gap */
         align-items: flex-start;
         justify-content: center;
         padding: 5rem 2rem;
-        /* Adjusted padding */
     }
 
     .footer-cont .fc-img-sec .fc-is-img-cont {
@@ -341,7 +323,6 @@
     .footer-cont .fc-links-sec {
         position: relative;
         gap: 2rem;
-        /* Adjusted gap */
         justify-content: space-between;
         width: 100%;
     }
