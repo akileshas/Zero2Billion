@@ -14,7 +14,7 @@ const Footer = () => {
                     </div>
                     <div className="fc-is-text-cont">
                         <p>Fostering Sustainable Progress for </p>
-                        <p>Individuals, Institutions, and Industries! </p>
+                        <p>Individuals, Institutions, and Industries! </p>
                     </div>
                 </div>
                 <div className="fc-links-sec">
@@ -24,7 +24,7 @@ const Footer = () => {
                                 <a href="/#home">Home</a>
                             </li>
                             <li className="fc-ls-shl-item">
-                                <a href="/#about">About Us</a>
+                            <Link to="/about-z2b">About</Link>
                             </li>
                             <li className="fc-ls-shl-item">
                                 <a href="/#services">Services</a>
@@ -41,10 +41,10 @@ const Footer = () => {
                                 <Link to="/events">Events</Link>
                             </li>
                             <li className="fc-ls-opnl-item">
-                            <Link to="/gallery">Gallery</Link>
+                                <Link to="/gallery">Gallery</Link>
                             </li>
                             <li className="fc-ls-opnl-item">
-                                <Link to="for-investment">For Investments</Link>
+                            <Link to="/for-investment">For Investment</Link>
                             </li>
                         </ul>
                     </div>
@@ -58,6 +58,14 @@ const Footer = () => {
                         <a href={SocialMediaData.linkedin.link} className="fc-ls-sml-linkedin">
                             <img src={SocialMediaData.linkedin.imgScr} alt="" />
                         </a>
+                    </div>
+                    <div className="fc-ls-contact-details">
+                        <p className="fc-ls-cd-title">Contact Us</p>
+                        <p>Phone: +123 456 7890</p>
+                        <p>Phone: +098 765 4321</p>
+                        <p>Phone: +111 222 3333</p>
+                        <p>Address: 123 Main St, Anytown, USA</p>
+                        <p>Email: contact@example.com</p>
                     </div>
                 </div>
             </div>
