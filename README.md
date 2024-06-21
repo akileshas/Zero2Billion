@@ -1,4 +1,4 @@
-#**Zero2Billion Official Website Repository**
+#Zero2Billion Official Website Repository
 
 Dive into the essence of Zero2Billion's digital footprint with our meticulously crafted official website repository, exclusively powered by JavaScript technologies.
 
