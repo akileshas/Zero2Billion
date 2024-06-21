@@ -35,7 +35,7 @@ const Footer = () => {
                         </ul>
                         <ul className="fc-ls-other-page-navigation-links">
                             <li className="fc-ls-opnl-item">
-                                <Link to={"/"}>Makers Turn</Link>
+                                <Link to="/makers-turn">Makers Turn</Link>
                             </li>
                             <li className="fc-ls-opnl-item">
                                 <Link to="/events">Events</Link>
@@ -44,7 +44,7 @@ const Footer = () => {
                             <Link to="/gallery">Gallery</Link>
                             </li>
                             <li className="fc-ls-opnl-item">
-                                <Link to={"/"}>For Investments</Link>
+                                <Link to="for-investment">For Investments</Link>
                             </li>
                         </ul>
                     </div>

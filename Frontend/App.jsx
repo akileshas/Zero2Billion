@@ -11,33 +11,32 @@ import InvestmentPage from "./Pages/Investment-Page/investment-page";
 import FormPage from "./Pages/Form-Page/form-page";
 import AboutPage from "./Pages/About-Page/about-page";
 
-
 export const useScrollToTop = () => {
-    const { pathname } = useLocation();
+  const { pathname } = useLocation();
 
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, [pathname]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 };
 
 const App = () => {
-    useScrollToTop();
+  useScrollToTop();
 
-    return (
-        <div className="App">
-            <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/gallery" element={<GalleryPage />} /> 
-                <Route path="/centers" element={<CentersPage />} /> 
-                <Route path="/events" element={<EventsPage />} /> 
-                <Route path="/makers-turn" element={<MakersTurnPage />} />
-                <Route path="*" element={<NotFoundPage />} />
-                <Route path="for-investment" element={<InvestmentPage />} />
-                <Route path="/form/:id" element={<FormPage />} />
-                <Route path="/about" element={<AboutPage />} />
-            </Routes>
-        </div>
-    );
+  return (
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/gallery" element={<GalleryPage />} />
+        <Route path="/centers" element={<CentersPage />} />
+        <Route path="/events" element={<EventsPage />} />
+        <Route path="/makers-turn" element={<MakersTurnPage />} />
+        <Route path="*" element={<NotFoundPage />} />
+        <Route path="/for-investment" element={<InvestmentPage />} />
+        <Route path="/form/:id" element={<FormPage />} />
+        <Route path="/about-z2b" element={<AboutPage />} />
+      </Routes>
+    </div>
+  );
 };
 
 export default App;
