@@ -1,8 +1,15 @@
-# React + Vite
+**Zero2Billion Official Website Repository**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dive into the essence of Zero2Billion's digital footprint with our meticulously crafted official website repository, exclusively powered by JavaScript technologies.
 
-Currently, two official plugins are available:
+**Key Technologies:**
+- **React** for creating dynamic and responsive user interfaces.
+- **styled-components** for finely tailored styling of components.
+- **react-router-dom** for seamless navigation within the site.
+- **react-countup** for animated numerical displays that engage users.
+- **react-intersection-observer** for efficient lazy loading of content.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Development Tools:**
+- **ESLint** for ensuring code quality and adherence to best practices.
+
+Experience the convergence of innovation and user-centric design through Zero2Billion's official website, meticulously developed with JavaScript to deliver a seamless digital experience.
