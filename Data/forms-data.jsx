@@ -194,7 +194,7 @@ const formsData = [
                 { type: "text", label: "Mobile Number", name: "mobilenumber" },
                 { type: "text", label: "Domain", name: "domain" },
                 { type: "textarea", label: "Problem Statement", name: "problemstatement" },
-                { type: "textarea", label: "Why a Startup", name: "whystartup" },
+                { type: "textarea", label: "Why Startup", name: "whystartup" },
                 { type: "textarea", label: "Brief Outline of Your Startup Idea", name: "startupidea" },
                 { type: "textarea", label: "Upload Necessary Documents(Drive Link)", name: "supportingdocuments" }
               ]
@@ -207,7 +207,7 @@ const formsData = [
               fields: [
                 { type: "text", label: "Name of the Institution", name: "nameoftheinstitution" },
                 { type: "text", label: "Institution Category", name: "institutioncategory" },
-                { type: "text", label: "How Long Since Establishment", name: "howlongsinceestablishment" },
+                { type: "text", label: "How Long Since Established", name: "howlongsinceestablishment" },
                 { type: "text", label: "Mobile Number", name: "mobilenumber" },
                 { type: "text", label: "Email", name: "email" },
                 { type: "text", label: "City", name: "city" },
