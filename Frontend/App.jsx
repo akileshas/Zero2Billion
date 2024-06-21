@@ -30,10 +30,10 @@ const App = () => {
         <Route path="/centers" element={<CentersPage />} />
         <Route path="/events" element={<EventsPage />} />
         <Route path="/makers-turn" element={<MakersTurnPage />} />
-        <Route path="*" element={<NotFoundPage />} />
         <Route path="/for-investment" element={<InvestmentPage />} />
         <Route path="/form/:id" element={<FormPage />} />
         <Route path="/about-z2b" element={<AboutPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>
   );
