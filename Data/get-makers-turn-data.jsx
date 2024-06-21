@@ -13,7 +13,7 @@ export const GetMakersTurnData = [
         title: "Advanced machinery",
         description: "Develop your goods with the help of state-of-the-art 3D printing facilities, IoT and electronics devices, Bosch power tools, and an extensive assortment of hand tools.",
         bgImg: Machinery,
-        redirectUrl: "https://chatgpt.com/c/a2b2766f-45d5-423b-93a9-1f6abaa546fe",
+        redirectUrl: "",
         stripColor: "#B1B1B1",
     },
     {
@@ -46,7 +46,7 @@ export const GetMakersTurnData = [
     },
     {
         title: "Technical Expertise",
-        description: "Utilize our team's technical know-how and resources to improve your product development process.",
+        description: "We provide cutting-edge technology solutions, innovative software development, cybersecurity services, and IT infrastructure optimization.",
         bgImg: Technical,
         redirectUrl: "",
         stripColor: "#B1B1B1",
