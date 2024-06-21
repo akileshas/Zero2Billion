@@ -10,6 +10,7 @@ import "./App.css";
 import InvestmentPage from "./Pages/Investment-Page/investment-page";
 import FormPage from "./Pages/Form-Page/form-page";
 import AboutPage from "./Pages/About-Page/about-page";
+import MemesPage from "./Pages/Memes-Page/memes-page";
 
 export const useScrollToTop = () => {
   const { pathname } = useLocation();
@@ -33,6 +34,7 @@ const App = () => {
         <Route path="/for-investment" element={<InvestmentPage />} />
         <Route path="/form/:id" element={<FormPage />} />
         <Route path="/about-z2b" element={<AboutPage />} />
+        <Route path="/memes" element={<MemesPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>

@@ -71,6 +71,10 @@
     list-style: none;
 }
 
+.fc-ls-contact-details {
+    margin-right: 10rem;
+}
+
 .footer-cont .fc-links-sec .fc-ls-scroll-highlight-links li a,
 .footer-cont .fc-links-sec .fc-ls-other-page-navigation-links li a {
     font-family: var(--font-roboto);
@@ -237,6 +241,8 @@
         margin-left: 0;
         width: 100%;
     }
+
+
 }
 
 @media screen and (min-width: 565px) and (max-width: 864px) {

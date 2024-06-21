@@ -1,0 +1,21 @@
+/* Memes.css */
+.memes-container {
+    margin-top: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.video-player-container {
+    width: 100%;
+    max-width: 800px; /* You can adjust this value as needed */
+    padding-bottom: 56.25%; /* 9/16 aspect ratio (16/9 * 100) */
+    position: relative;
+}
+
+.video-player {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+}
