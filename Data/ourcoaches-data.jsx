@@ -120,11 +120,11 @@ const OurCoachesData = [
         imgsrc: Coach13,
     },
     {
-        name: "Issac Devaraj",
+        name: "R Rajesh",
         designation: "Agripreneur",
-        company: "Traditional Groceries",
+        company: "Freelancer",
         email: "Issac@traditionalgroceries.com",
-        linkedinURL: "https://www.linkedin.com/in/issac-devaraj-77943a7/",
+        linkedinURL: "https://www.linkedin.com/in/r-rajesh-18056826/",
         imgsrc: Coach1,
     },
     
