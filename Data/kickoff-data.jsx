@@ -11,7 +11,7 @@ const KickoffData = [
       title: "Traditional Groceries",
       imgsrc: TraditionalGroceries,
       description: "Stepping back in time! Traditional grocers bring local products, homemade treats, and unique finds, all with friendly service and a focus on quality and community.",
-      linkedinURL: "https://linkedin.com/in/johndoe",
+      linkedinURL: "https://www.linkedin.com/company/traditional-groceries/",
       topcolor: "#E22961"
     },
     {
