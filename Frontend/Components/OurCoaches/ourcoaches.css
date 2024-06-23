@@ -486,7 +486,8 @@
 }
 
 @media (max-width: 768px) {
-  .ourcoaches-card {
-    width: 100%;
+  .ourcoaches-container{
+    display:none;
   }
 }
+
