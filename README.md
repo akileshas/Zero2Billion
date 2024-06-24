@@ -41,7 +41,7 @@ Discover the digital hub of Zero2Billion, where innovation meets excellence in e
 
 5. **Explore Zero2Billion**:
 
-   Once the development server is running, dive into the Zero2Billion experience. Discover our services, explore our journey, and witness innovation in action.
+Once the development server is running, dive into the Zero2Billion experience. Discover our services, explore our journey, and witness innovation in action.
 
 ## Feedback and Contributions
 
