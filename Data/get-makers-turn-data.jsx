@@ -1,68 +1,75 @@
-import React from "react";
-import imgScr from "./Images/cash-icon.png";
+import Machinery from "./Images/MakersTurn/machinery.jpg";
+import Dedicated from "./Images/MakersTurn/thriving-community.jpg";
+import Mentoring from "./Images/MakersTurn/advisory.jpg";
+import Thriving from "./Images/MakersTurn/thriving-community.jpg";
+import Prototyping from "./Images/MakersTurn/prototyping.jpg";
+import Technical from "./Images/MakersTurn/technical.jpg";
+import Acess from "./Images/MakersTurn/access.jpg";
+import Support from "./Images/MakersTurn/support.jpg";
+import Collabrative from "./Images/MakersTurn/collabrative.jpg";
 
 export const GetMakersTurnData = [
     {
         title: "Advanced machinery",
         description: "Develop your goods with the help of state-of-the-art 3D printing facilities, IoT and electronics devices, Bosch power tools, and an extensive assortment of hand tools.",
-        imgScr: imgScr,
+        bgImg: Machinery,
         redirectUrl: "",
-        stripColor: "#8597E1",
+        stripColor: "#B1B1B1",
     },
     {
         title: "Dedicated Workspace",
         description: "Work in a fully furnished area that encourages originality and creativity.",
-        imgScr: imgScr,
+        bgImg: Dedicated,
         redirectUrl: "",
-        stripColor: "#8597E1",
+        stripColor: "#B1B1B1",
     },
     {
         title: "Mentoring and Advisory",
         description: "Leverage one-on-one consultations and mentorship to overcome obstacles and enhance your projects.",
-        imgScr: imgScr,
+        bgImg: Mentoring,
         redirectUrl: "",
-        stripColor: "#C5C4DE",
+        stripColor: "#B1B1B1",
     },
     {
-        title: "Community",
+        title: "Thriving Community",
         description: "Join a thriving community that fosters networking and cooperation among makers, innovators, and problem solvers.",
-        imgScr: imgScr,
+        bgImg: Thriving,
         redirectUrl: "",
-        stripColor: "#8597E1",
+        stripColor: "#B1B1B1",
     },
     {
         title: "Prototyping Support",
         description: "Utilize our team's technical know-how and resources to improve your product development process.",
-        imgScr: imgScr,
+        bgImg: Prototyping,
         redirectUrl: "",
-        stripColor: "#8597E1",
+        stripColor: "#B1B1B1",
     },
     {
         title: "Technical Expertise",
-        description: "Utilize our team's technical know-how and resources to improve your product development process.",
-        imgScr: imgScr,
+        description: "We provide cutting-edge technology solutions, innovative software development, cybersecurity services, and IT infrastructure optimization.",
+        bgImg: Technical,
         redirectUrl: "",
-        stripColor: "#8597E1",
+        stripColor: "#B1B1B1",
     },
     {
         title: "Access to Machinery",
         description: "Utilize cutting-edge machinery to test ideas, build prototypes, and produce useful goods.",
-        imgScr: imgScr,
+        bgImg: Acess,
         redirectUrl: "",
-        stripColor: "#8597E1",
+        stripColor: "#B1B1B1",
     },
     {
         title: "Mentoring and Support",
         description: "Gain professional guidance to overcome product development challenges.",
-        imgScr: imgScr,
+        bgImg: Support,
         redirectUrl: "",
-        stripColor: "#8597E1",
+        stripColor: "#B1B1B1",
     },
     {
         title: "Collaborative Ecosystem",
         description: "Collaborate with fellow makers, share knowledge, and explore new possibilities",
-        imgScr: imgScr,
+        bgImg: Collabrative,
         redirectUrl: "",
-        stripColor: "#8597E1",
+        stripColor: "#B1B1B1",
     },
 ];

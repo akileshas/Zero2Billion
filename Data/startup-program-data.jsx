@@ -18,7 +18,6 @@ export const StartupProgramData = [
             "Design Thinking",
         ],
         imgScr: imgSrc1,
-        redirectUrl: "",
     },
     {
         title: "Launch",
@@ -30,7 +29,6 @@ export const StartupProgramData = [
             "Funding",
         ],
         imgScr: imgSrc2,
-        redirectUrl: "",
     },
     {
         title: "Commercialization",
@@ -42,7 +40,6 @@ export const StartupProgramData = [
             "Marketing Analysis",
         ],
         imgScr: imgScr3,
-        redirectUrl: "",
     },
     {
         title: "Sustainability",
@@ -54,6 +51,5 @@ export const StartupProgramData = [
             "Collaboration and Integrity",
         ],
         imgScr: imgScr4,
-        redirectUrl: "",
     }
 ];

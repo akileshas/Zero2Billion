@@ -8,7 +8,7 @@ const JoinMakersTurn = () => {
         <div id="join-makers-turn">
             <div className="join-makers-turn-cont">
                 <p className="jmtc-title">
-                    Who Should Join MakersTurn ?
+                    Why Makers Turn ?
                 </p>
                 <div className="jmtc-description-cont">
                     <span className="jmtc-dc-line1 jmtc-dc-line">

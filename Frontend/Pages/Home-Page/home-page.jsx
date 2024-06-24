@@ -13,6 +13,7 @@ import Know from "../../Components/Know/know";
 import Footer from "../../Components/Footer/footer";
 import SmallScreen from "../../Components/SmallScreen/small-screen";
 import "./home-page.css";
+import RoadMap from "../../Components/Roadmap/roadmap";
 
 const HomePage = () => {
     const [mobileMenu, setMobileMenu] = useState(false);
@@ -28,6 +29,7 @@ const HomePage = () => {
                 <Services />
                 <Centres />
                 <StartupProgram />
+                <RoadMap />
                 <Apply />
                 <Know />
                 <Footer />

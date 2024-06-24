@@ -4,6 +4,7 @@ import Logo from "../../../Data/Images/logo.png";
 import "./navbar.css";
 
 const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
+
     const [activeSection, setActiveSection] = useState(Session);
     const [scrollY, setScrollY] = useState(0);
     const mobileMenuRef = useRef(null);
@@ -91,7 +92,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
                                 <a href="/#home">Home</a>
                             </li>
                             <li className={`${activeSection === "#about" ? "active" : ""}`}>
-                                <a href="/#about">About</a>
+                            <Link to="/about-z2b">About</Link>
                             </li>
                             <li className={`${activeSection === "#services" ? "active" : ""}`}>
                                 <a href="/#services">Services</a>
@@ -103,15 +104,15 @@ const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
                                 <Link to={"/makers-turn"}>Makers Turn</Link>
                             </li>
                             <li className={`${activeSection === "#events" ? "active" : ""}`}>
-                                <Link to={"/"}>Events</Link>
+                                <Link to="/events">Events</Link>
                             </li>
                             <li className={`${activeSection === "#gallery" ? "active" : ""}`}>
-                                <Link to={"/"}>Gallery</Link>
+                                <Link to="/gallery">Gallery</Link>
                             </li>
                         </ul>
 
                         <button className="investment-button">
-                            <Link to={"/"}>
+                            <Link to={"/for-investment"}>
                                 For Investment
                             </Link>
                         </button>
@@ -137,7 +138,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
                             <a href="/#home" onClick={toggleMobileMenu}>Home</a>
                         </li>
                         <li className={`${activeSection === "#about" ? "active" : ""}`}>
-                            <a href="/#about" onClick={toggleMobileMenu}>About</a>
+                         <Link to="/about-z2b" onClick={toggleMobileMenu}>About</Link>
                         </li>
                         <li className={`${activeSection === "#services" ? "active" : ""}`}>
                             <a href="/#services" onClick={toggleMobileMenu}>Services</a>
@@ -146,16 +147,16 @@ const Navbar = ({ mobileMenu, setMobileMenu, Session }) => {
                             <a href="/#centers" onClick={toggleMobileMenu}>Centers</a>
                         </li>
                         <li className={`${activeSection === "#makers-turn" ? "active" : ""}`}>
-                            <Link to={"/"} onClick={toggleMobileMenu}>Makers Turn</Link>
+                            <Link to="/makers-turn" onClick={toggleMobileMenu}>Makers Turn</Link>
                         </li>
                         <li className={`${activeSection === "#events" ? "active" : ""}`}>
-                            <Link to={"/"} onClick={toggleMobileMenu}>Events</Link>
+                            <Link to="/events" onClick={toggleMobileMenu}>Events</Link>
                         </li>
                         <li className={`${activeSection === "#gallery" ? "active" : ""}`}>
-                            <Link to={"/"} onClick={toggleMobileMenu}>Gallery</Link>
+                        <Link to="/gallery" onClick={toggleMobileMenu}>Gallery</Link>
                         </li>
                     </ul>
-                    <button className="investment-button"><Link to={"/"}>For Investment</Link></button>
+                    <button className="investment-button"><Link to={"/for-investment"}>For Investment</Link></button>
                 </div>
                 {mobileMenu && <div onClick={toggleMobileMenu} className="nav-mobile-overlay"></div>}
             </div>

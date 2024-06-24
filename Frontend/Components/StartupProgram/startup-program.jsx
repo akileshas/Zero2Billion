@@ -25,7 +25,6 @@ const StartupProgram = () => {
                                     title={item.title}
                                     points={item.points}
                                     imgScr={item.imgScr}
-                                    redirectUrl={item.redirectUrl}
                                 />
                             ))
                         }

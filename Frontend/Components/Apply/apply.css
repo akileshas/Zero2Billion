@@ -148,7 +148,6 @@
     font-family: var(--font-roboto);
     font-size: 1.1rem;
     font-weight: 500;
-    margin-top: 10px;
     width: fit-content;
     text-decoration: none;
     text-transform: capitalize;
@@ -157,8 +156,9 @@
     padding: 11px 30px;
     cursor: pointer;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-    margin-top: 45px;
+    margin-top: 13px; /* Reduced margin-top to move the button closer */
 }
+
 
 .apply-cont .ac-card-cont .ac-cc-card.open {
     height: 315px;

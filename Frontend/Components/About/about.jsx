@@ -5,7 +5,7 @@ import "./about.css";
 
 const About = () => {
     return (
-        <section id="about">
+        <section id="aboutus">
             <div className="about-cont">
                 {
                     AboutData.map((item, index) => {
@@ -15,8 +15,9 @@ const About = () => {
                                 number={index+1}
                                 title={item.title}
                                 description={item.description}
-                                highlightDetails={item.highlightDetails}
+                                highlightAfter={item.highlightAfter}
                                 imgScr={item.imgScr}
+                                highlightBefore={item.highlightBefore}
                             />
                         )
                     })

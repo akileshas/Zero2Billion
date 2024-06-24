@@ -1,6 +1,7 @@
 #get-makers-turn {
     width: 100%;
     background-color: var(--color-FFFFFF);
+    margin-top: -25px;
 }
 
 .get-makers-turn-cont {
@@ -73,16 +74,16 @@
 
 .get-makers-turn-cont .gmtc-card-cont .gmtc-cc-card .gmtc-cc-card-cont {
     width: 340px;
-    height: 270px;
+    height: 230px;
     position: relative;
     overflow: hidden;
     border-radius: 20px;
     padding: 40px;
-    background-color: var(--color-EFEFEF);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
     gap: 10px;
 }
 
@@ -136,13 +137,14 @@
     font-family: var(--font-roboto);
     font-weight: 600;
     font-size: 2.2rem;
-    text-align: left;
-    color: var(--color-0F1A3A);
+    text-align: center;
+    color: var(--color-FFFFFF);
 }
 
 .get-makers-turn-cont .gmtc-card-cont .gmtc-cc-card .gmtc-cc-card-cont .gmtc-cc-cc-up-overlay-cont .gmtc-cc-cc-title {
     font-size: 1.85rem;
     z-index: 4;
+    color:var(--color-000000)
 }
 
 .get-makers-turn-cont .gmtc-card-cont .gmtc-cc-card .gmtc-cc-card-cont .gmtc-cc-cc-up-overlay-cont .gmtc-cc-cc-description {
@@ -150,7 +152,7 @@
     font-weight: 300;
     font-size: 1rem;
     text-align: left;
-    color: var(--color-0F1A3A);
+    color:var(--color-000000);
     z-index: 4;
 }
 

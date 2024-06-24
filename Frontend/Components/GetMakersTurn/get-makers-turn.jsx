@@ -27,7 +27,7 @@ const GetMakersTurn = () => {
                                 number={index + 1}
                                 title={item.title}
                                 description={item.description}
-                                imgScr={item.imgScr}
+                                bgImg={item.bgImg}
                                 redirectUrl={item.redirectUrl}
                                 stripColor={item.stripColor}
                             />

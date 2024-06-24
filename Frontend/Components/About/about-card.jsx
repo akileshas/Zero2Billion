@@ -4,16 +4,21 @@ const AboutCard = ({
     number,
     title,
     description,
-    highlightDetails,
+    highlightAfter,
+    highlightBefore,
     imgScr,
 }) => {
     return (
         <div className={`about-card about-card-${number}`}>
             <div className="ac-text-cont">
                 <p className="ac-tc-title">{title}</p>
-                <p className="ac-tc-description">{description}
-                    {(highlightDetails!=="") && (
-                        <span className="ac-tc-highlight-details">{highlightDetails}</span>
+
+                <p className="ac-tc-description"> {(highlightBefore!=="") && (
+                        <span className="ac-tc-highlight-details">{highlightBefore}</span>
+                    )}
+                    {description}
+                    {(highlightAfter!=="") && (
+                        <span className="ac-tc-highlight-details">{highlightAfter}</span>
                     )}
                 </p>
             </div>
