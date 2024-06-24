@@ -11,7 +11,7 @@ import Coach10 from "./Images/Coaches/coach10.jpg"
 import Coach11 from "./Images/Coaches/coach11.jpg"
 import Coach12 from "./Images/Coaches/coach12.jpg"
 import Coach13 from "./Images/Coaches/coach13.jpg"
-import Coach14 from "./Images/Coaches/coach14.jpg"
+import Coach14 from "./Images/Coaches/coach14.png"
 
 
 
