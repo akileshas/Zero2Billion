@@ -9,10 +9,6 @@ const Kickoff = () => {
             <div className="kickoff-heading">
                 Kick Off Ventures
             </div>
-            <div className="kickoff-description">
-                <span className="main-text">Connect with us</span>
-                <span className="sub-text"> for support or inquiries</span>
-            </div>
             <div className="kickoff-container">
                 {KickoffData.map((item, index) => (
                     <KickoffCard
