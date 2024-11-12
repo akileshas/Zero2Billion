@@ -2,7 +2,7 @@
 
 Discover the digital hub of Zero2Billion, where innovation meets excellence in every pixel. Explore our platform and uncover a new standard in digital presence and functionality.
 
-**Deployed At**: [https://zero2billion.in](zero2billion.in)
+**Deployed At**: [zero2billion.in](https://zero2billion.in)
 
 ## Technologies Used
 
